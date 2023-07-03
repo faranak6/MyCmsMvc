@@ -1,5 +1,817 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
-CKEDITOR.lang['fr-ca']={"editor":"Éditeur de texte enrichi","editorPanel":"Rich Text Editor panel","common":{"editorHelp":"Appuyez sur 0 pour de l'aide","browseServer":"Parcourir le serveur","url":"URL","protocol":"Protocole","upload":"Envoyer","uploadSubmit":"Envoyer au serveur","image":"Image","flash":"Animation Flash","form":"Formulaire","checkbox":"Case à cocher","radio":"Bouton radio","textField":"Champ texte","textarea":"Zone de texte","hiddenField":"Champ caché","button":"Bouton","select":"Liste déroulante","imageButton":"Bouton image","notSet":"<Par défaut>","id":"Id","name":"Nom","langDir":"Sens d'écriture","langDirLtr":"De gauche à droite (LTR)","langDirRtl":"De droite à gauche (RTL)","langCode":"Code langue","longDescr":"URL de description longue","cssClass":"Classes CSS","advisoryTitle":"Titre","cssStyle":"Style","ok":"OK","cancel":"Annuler","close":"Fermer","preview":"Aperçu","resize":"Redimensionner","generalTab":"Général","advancedTab":"Avancé","validateNumberFailed":"Cette valeur n'est pas un nombre.","confirmNewPage":"Les changements non sauvegardés seront perdus. Êtes-vous certain de vouloir charger une nouvelle page?","confirmCancel":"Certaines options ont été modifiées.  Êtes-vous certain de vouloir fermer?","options":"Options","target":"Cible","targetNew":"Nouvelle fenêtre (_blank)","targetTop":"Fenêtre supérieur (_top)","targetSelf":"Cette fenêtre (_self)","targetParent":"Fenêtre parent (_parent)","langDirLTR":"De gauche à droite (LTR)","langDirRTL":"De droite à gauche (RTL)","styles":"Style","cssClasses":"Classe CSS","width":"Largeur","height":"Hauteur","align":"Alignement","alignLeft":"Gauche","alignRight":"Droite","alignCenter":"Centré","alignTop":"Haut","alignMiddle":"Milieu","alignBottom":"Bas","invalidValue":"Valeur invalide.","invalidHeight":"La hauteur doit être un nombre.","invalidWidth":"La largeur doit être un nombre.","invalidCssLength":"La valeur spécifiée pour le champ \"%1\" doit être un nombre positif avec ou sans unité de mesure CSS valide (px, %, in, cm, mm, em, ex, pt, ou pc).","invalidHtmlLength":"La valeur spécifiée pour le champ \"%1\" doit être un nombre positif avec ou sans unité de mesure HTML valide (px ou %).","invalidInlineStyle":"La valeur spécifiée pour le style intégré doit être composée d'un ou plusieurs couples de valeur au format \"nom : valeur\", separés par des points-virgules.","cssLengthTooltip":"Entrer un nombre pour la valeur en pixel ou un nombre avec une unité CSS valide (px, %, in, cm, mm, em, ex, pt, ou pc).","unavailable":"%1<span class=\"cke_accessibility\">, indisponible</span>"},"about":{"copy":"Copyright &copy; $1. Tous droits réservés.","dlgTitle":"À propos de CKEditor","help":"Consulter $1 pour l'aide.","moreInfo":"Pour les informations de licence, consulter notre site internet:","title":"À propos de CKEditor","userGuide":"Guide utilisateur de CKEditor"},"basicstyles":{"bold":"Gras","italic":"Italique","strike":"Barré","subscript":"Indice","superscript":"Exposant","underline":"Souligné"},"bidi":{"ltr":"Direction du texte de gauche à droite","rtl":"Direction du texte de droite à gauche"},"blockquote":{"toolbar":"Citation"},"clipboard":{"copy":"Copier","copyError":"Les paramètres de sécurité de votre navigateur empêchent l'éditeur de copier automatiquement vos données. Veuillez utiliser les équivalents claviers (Ctrl/Cmd+C).","cut":"Couper","cutError":"Les paramètres de sécurité de votre navigateur empêchent l'éditeur de couper automatiquement vos données. Veuillez utiliser les équivalents claviers (Ctrl/Cmd+X).","paste":"Coller","pasteArea":"Coller la zone","pasteMsg":"Veuillez coller dans la zone ci-dessous en utilisant le clavier (<STRONG>Ctrl/Cmd+V</STRONG>) et appuyer sur <STRONG>OK</STRONG>.","securityMsg":"A cause des paramètres de sécurité de votre navigateur, l'éditeur ne peut accéder au presse-papier directement. Vous devez coller à nouveau le contenu dans cette fenêtre.","title":"Coller"},"colorbutton":{"auto":"Automatique","bgColorTitle":"Couleur de fond","colors":{"000":"Noir","800000":"Marron","8B4513":"Brun foncé","2F4F4F":"Gris ardoise foncé","008080":"Sarcelle","000080":"Marine","4B0082":"Indigo","696969":"Gris foncé","B22222":"Rouge brique","A52A2A":"Brun","DAA520":"Doré","006400":"Vert foncé","40E0D0":"Turquoise","0000CD":"Bleu","800080":"Mauve","808080":"Gris","F00":"Rouge","FF8C00":"Orange foncé","FFD700":"Or","008000":"Vert","0FF":"Cyan","00F":"Bleu","EE82EE":"Violet","A9A9A9":"Gris pâle","FFA07A":"Saumon clair","FFA500":"Orange","FFFF00":"Jaune","00FF00":"Vert lime","AFEEEE":"Turquoise pâle","ADD8E6":"Bleu pâle","DDA0DD":"Prune","D3D3D3":"Gris pâle","FFF0F5":"Bleu lavande","FAEBD7":"Blanc antique","FFFFE0":"Jaune pâle","F0FFF0":"Miel doré","F0FFFF":"Azure","F0F8FF":"Bleu alice","E6E6FA":"Lavande","FFF":"Blanc"},"more":"Plus de couleurs...","panelTitle":"Couleurs","textColorTitle":"Couleur de texte"},"colordialog":{"clear":"Effacer","highlight":"Surligner","options":"Options de couleur","selected":"Couleur sélectionnée","title":"Choisir une couleur"},"templates":{"button":"Modèles","emptyListMsg":"(Aucun modèle disponible)","insertOption":"Remplacer tout le contenu actuel","options":"Options de modèles","selectPromptMsg":"Sélectionner le modèle à ouvrir dans l'éditeur","title":"Modèles de contenu"},"contextmenu":{"options":"Options du menu contextuel"},"div":{"IdInputLabel":"ID","advisoryTitleInputLabel":"Titre","cssClassInputLabel":"Classes CSS","edit":"Modifier le DIV","inlineStyleInputLabel":"Style en ligne","langDirLTRLabel":"De gauche à droite (LTR)","langDirLabel":"Sens d'écriture","langDirRTLLabel":"De droite à gauche (RTL)","languageCodeInputLabel":"Code de langue","remove":"Supprimer le DIV","styleSelectLabel":"Style","title":"Créer un DIV","toolbar":"Créer un DIV"},"toolbar":{"toolbarCollapse":"Enrouler la barre d'outils","toolbarExpand":"Dérouler la barre d'outils","toolbarGroups":{"document":"Document","clipboard":"Presse papier/Annuler","editing":"Édition","forms":"Formulaires","basicstyles":"Styles de base","paragraph":"Paragraphe","links":"Liens","insert":"Insérer","styles":"Styles","colors":"Couleurs","tools":"Outils"},"toolbars":"Barre d'outils de l'éditeur"},"elementspath":{"eleLabel":"Chemin d'éléments","eleTitle":"element %1"},"find":{"find":"Rechercher","findOptions":"Options de recherche","findWhat":"Rechercher:","matchCase":"Respecter la casse","matchCyclic":"Recherche cyclique","matchWord":"Mot entier","notFoundMsg":"Le texte indiqué est introuvable.","replace":"Remplacer","replaceAll":"Tout remplacer","replaceSuccessMsg":"%1 remplacements.","replaceWith":"Remplacer par:","title":"Rechercher et remplacer"},"fakeobjects":{"anchor":"Ancre","flash":"Animation Flash","hiddenfield":"Champ caché","iframe":"IFrame","unknown":"Objet inconnu"},"flash":{"access":"Accès au script","accessAlways":"Toujours","accessNever":"Jamais","accessSameDomain":"Même domaine","alignAbsBottom":"Bas absolu","alignAbsMiddle":"Milieu absolu","alignBaseline":"Bas du texte","alignTextTop":"Haut du texte","bgcolor":"Couleur de fond","chkFull":"Permettre le plein-écran","chkLoop":"Boucle","chkMenu":"Activer le menu Flash","chkPlay":"Lecture automatique","flashvars":"Variables pour Flash","hSpace":"Espacement horizontal","properties":"Propriétés de l'animation Flash","propertiesTab":"Propriétés","quality":"Qualité","qualityAutoHigh":"Haute auto","qualityAutoLow":"Basse auto","qualityBest":"Meilleur","qualityHigh":"Haute","qualityLow":"Basse","qualityMedium":"Moyenne","scale":"Échelle","scaleAll":"Afficher tout","scaleFit":"Ajuster aux dimensions","scaleNoBorder":"Sans bordure","title":"Propriétés de l'animation Flash","vSpace":"Espacement vertical","validateHSpace":"L'espacement horizontal doit être un entier.","validateSrc":"Veuillez saisir l'URL","validateVSpace":"L'espacement vertical doit être un entier.","windowMode":"Mode de fenêtre","windowModeOpaque":"Opaque","windowModeTransparent":"Transparent","windowModeWindow":"Fenêtre"},"font":{"fontSize":{"label":"Taille","voiceLabel":"Taille","panelTitle":"Taille"},"label":"Police","panelTitle":"Police","voiceLabel":"Police"},"forms":{"button":{"title":"Propriétés du bouton","text":"Texte (Valeur)","type":"Type","typeBtn":"Bouton","typeSbm":"Soumettre","typeRst":"Réinitialiser"},"checkboxAndRadio":{"checkboxTitle":"Propriétés de la case à cocher","radioTitle":"Propriétés du bouton radio","value":"Valeur","selected":"Sélectionné"},"form":{"title":"Propriétés du formulaire","menu":"Propriétés du formulaire","action":"Action","method":"Méthode","encoding":"Encodage"},"hidden":{"title":"Propriétés du champ caché","name":"Nom","value":"Valeur"},"select":{"title":"Propriétés du champ de sélection","selectInfo":"Info","opAvail":"Options disponibles","value":"Valeur","size":"Taille","lines":"lignes","chkMulti":"Permettre les sélections multiples","opText":"Texte","opValue":"Valeur","btnAdd":"Ajouter","btnModify":"Modifier","btnUp":"Monter","btnDown":"Descendre","btnSetValue":"Valeur sélectionnée","btnDelete":"Supprimer"},"textarea":{"title":"Propriétés de la zone de texte","cols":"Colonnes","rows":"Lignes"},"textfield":{"title":"Propriétés du champ texte","name":"Nom","value":"Valeur","charWidth":"Largeur de caractères","maxChars":"Nombre maximum de caractères","type":"Type","typeText":"Texte","typePass":"Mot de passe","typeEmail":"Courriel","typeSearch":"Recherche","typeTel":"Numéro de téléphone","typeUrl":"URL"}},"format":{"label":"Format","panelTitle":"Format de paragraphe","tag_address":"Adresse","tag_div":"Normal (DIV)","tag_h1":"En-tête 1","tag_h2":"En-tête 2","tag_h3":"En-tête 3","tag_h4":"En-tête 4","tag_h5":"En-tête 5","tag_h6":"En-tête 6","tag_p":"Normal","tag_pre":"Formaté"},"horizontalrule":{"toolbar":"Insérer un séparateur horizontale"},"iframe":{"border":"Afficher la bordure du cadre","noUrl":"Veuillez entre l'URL du IFrame","scrolling":"Activer les barres de défilement","title":"Propriétés du IFrame","toolbar":"IFrame"},"image":{"alertUrl":"Veuillez saisir l'URL de l'image","alt":"Texte alternatif","border":"Bordure","btnUpload":"Envoyer sur le serveur","button2Img":"Désirez-vous transformer l'image sélectionnée en image simple?","hSpace":"Espacement horizontal","img2Button":"Désirez-vous transformer l'image sélectionnée en bouton image?","infoTab":"Informations sur l'image","linkTab":"Lien","lockRatio":"Verrouiller les proportions","menu":"Propriétés de l'image","resetSize":"Taille originale","title":"Propriétés de l'image","titleButton":"Propriétés du bouton image","upload":"Téléverser","urlMissing":"L'URL de la source de l'image est manquant.","vSpace":"Espacement vertical","validateBorder":"La bordure doit être un entier.","validateHSpace":"L'espacement horizontal doit être un entier.","validateVSpace":"L'espacement vertical doit être un entier."},"indent":{"indent":"Augmenter le retrait","outdent":"Diminuer le retrait"},"smiley":{"options":"Options d'émoticônes","title":"Insérer un émoticône","toolbar":"Émoticône"},"justify":{"block":"Justifié","center":"Centré","left":"Aligner à gauche","right":"Aligner à Droite"},"language":{"button":"Set language","remove":"Remove language"},"link":{"acccessKey":"Touche d'accessibilité","advanced":"Avancé","advisoryContentType":"Type de contenu","advisoryTitle":"Description","anchor":{"toolbar":"Ancre","menu":"Modifier l'ancre","title":"Propriétés de l'ancre","name":"Nom de l'ancre","errorName":"Veuillez saisir le nom de l'ancre","remove":"Supprimer l'ancre"},"anchorId":"Par ID","anchorName":"Par nom","charset":"Encodage de la cible","cssClasses":"Classes CSS","emailAddress":"Courriel","emailBody":"Corps du message","emailSubject":"Objet du message","id":"ID","info":"Informations sur le lien","langCode":"Code de langue","langDir":"Sens d'écriture","langDirLTR":"De gauche à droite (LTR)","langDirRTL":"De droite à gauche (RTL)","menu":"Modifier le lien","name":"Nom","noAnchors":"(Pas d'ancre disponible dans le document)","noEmail":"Veuillez saisir le courriel","noUrl":"Veuillez saisir l'URL","other":"<autre>","popupDependent":"Dépendante (Netscape)","popupFeatures":"Caractéristiques de la fenêtre popup","popupFullScreen":"Plein écran (IE)","popupLeft":"Position de la gauche","popupLocationBar":"Barre d'adresse","popupMenuBar":"Barre de menu","popupResizable":"Redimensionnable","popupScrollBars":"Barres de défilement","popupStatusBar":"Barre d'état","popupToolbar":"Barre d'outils","popupTop":"Position à partir du haut","rel":"Relation","selectAnchor":"Sélectionner une ancre","styles":"Style","tabIndex":"Ordre de tabulation","target":"Destination","targetFrame":"<Cadre>","targetFrameName":"Nom du cadre de destination","targetPopup":"<fenêtre popup>","targetPopupName":"Nom de la fenêtre popup","title":"Lien","toAnchor":"Ancre dans cette page","toEmail":"Courriel","toUrl":"URL","toolbar":"Lien","type":"Type de lien","unlink":"Supprimer le lien","upload":"Téléverser"},"list":{"bulletedlist":"Liste à puces","numberedlist":"Liste numérotée"},"liststyle":{"armenian":"Numération arménienne","bulletedTitle":"Propriété de liste à puce","circle":"Cercle","decimal":"Décimal (1, 2, 3, etc.)","decimalLeadingZero":"Décimal avec zéro (01, 02, 03, etc.)","disc":"Disque","georgian":"Numération géorgienne (an, ban, gan, etc.)","lowerAlpha":"Alphabétique minuscule (a, b, c, d, e, etc.)","lowerGreek":"Grecque minuscule (alpha, beta, gamma, etc.)","lowerRoman":"Romain minuscule (i, ii, iii, iv, v, etc.)","none":"Aucun","notset":"<non défini>","numberedTitle":"Propriété de la liste numérotée","square":"Carré","start":"Début","type":"Type","upperAlpha":"Alphabétique majuscule (A, B, C, D, E, etc.)","upperRoman":"Romain Majuscule (I, II, III, IV, V, etc.)","validateStartNumber":"Le numéro de début de liste doit être un entier."},"magicline":{"title":"Insérer le paragraphe ici"},"maximize":{"maximize":"Maximizer","minimize":"Minimizer"},"newpage":{"toolbar":"Nouvelle page"},"pagebreak":{"alt":"Saut de page","toolbar":"Insérer un saut de page à l'impression"},"pastetext":{"button":"Coller comme texte","title":"Coller comme texte"},"pastefromword":{"confirmCleanup":"Le texte que vous tentez de coller semble provenir de Word.  Désirez vous le nettoyer avant de coller?","error":"Il n'a pas été possible de nettoyer les données collées du à une erreur interne","title":"Coller de Word","toolbar":"Coller de Word"},"preview":{"preview":"Prévisualiser"},"print":{"toolbar":"Imprimer"},"removeformat":{"toolbar":"Supprimer le formatage"},"save":{"toolbar":"Sauvegarder"},"selectall":{"toolbar":"Sélectionner tout"},"showblocks":{"toolbar":"Afficher les blocs"},"sourcearea":{"toolbar":"Source"},"specialchar":{"options":"Option des caractères spéciaux","title":"Sélectionner un caractère spécial","toolbar":"Insérer un caractère spécial"},"scayt":{"about":"About SCAYT","aboutTab":"About","addWord":"Add Word","allCaps":"Ignore All-Caps Words","dic_create":"Create","dic_delete":"Delete","dic_field_name":"Dictionary name","dic_info":"Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.","dic_rename":"Rename","dic_restore":"Restore","dictionariesTab":"Dictionaries","disable":"Disable SCAYT","emptyDic":"Dictionary name should not be empty.","enable":"Enable SCAYT","ignore":"Ignore","ignoreAll":"Ignore All","ignoreDomainNames":"Ignore Domain Names","langs":"Languages","languagesTab":"Languages","mixedCase":"Ignore Words with Mixed Case","mixedWithDigits":"Ignore Words with Numbers","moreSuggestions":"More suggestions","opera_title":"Not supported by Opera","options":"Options","optionsTab":"Options","title":"Spell Check As You Type","toggle":"Toggle SCAYT","noSuggestions":"No suggestion"},"stylescombo":{"label":"Styles","panelTitle":"Styles de formattage","panelTitle1":"Styles de block","panelTitle2":"Styles en ligne","panelTitle3":"Styles d'objet"},"table":{"border":"Taille de la bordure","caption":"Titre","cell":{"menu":"Cellule","insertBefore":"Insérer une cellule avant","insertAfter":"Insérer une cellule après","deleteCell":"Supprimer des cellules","merge":"Fusionner les cellules","mergeRight":"Fusionner à droite","mergeDown":"Fusionner en bas","splitHorizontal":"Scinder la cellule horizontalement","splitVertical":"Scinder la cellule verticalement","title":"Propriétés de la cellule","cellType":"Type de cellule","rowSpan":"Fusion de lignes","colSpan":"Fusion de colonnes","wordWrap":"Retour à la ligne","hAlign":"Alignement horizontal","vAlign":"Alignement vertical","alignBaseline":"Bas du texte","bgColor":"Couleur d'arrière plan","borderColor":"Couleur de bordure","data":"Données","header":"En-tête","yes":"Oui","no":"Non","invalidWidth":"La largeur de cellule doit être un nombre.","invalidHeight":"La hauteur de cellule doit être un nombre.","invalidRowSpan":"La fusion de lignes doit être un nombre entier.","invalidColSpan":"La fusion de colonnes doit être un nombre entier.","chooseColor":"Sélectionner"},"cellPad":"Marge interne des cellules","cellSpace":"Espacement des cellules","column":{"menu":"Colonne","insertBefore":"Insérer une colonne avant","insertAfter":"Insérer une colonne après","deleteColumn":"Supprimer des colonnes"},"columns":"Colonnes","deleteTable":"Supprimer le tableau","headers":"En-têtes","headersBoth":"Les deux.","headersColumn":"Première colonne","headersNone":"Aucun","headersRow":"Première ligne","invalidBorder":"La taille de bordure doit être un nombre.","invalidCellPadding":"La marge interne des cellules doit être un nombre positif.","invalidCellSpacing":"L'espacement des cellules doit être un nombre positif.","invalidCols":"Le nombre de colonnes doit être supérieur à 0.","invalidHeight":"La hauteur du tableau doit être un nombre.","invalidRows":"Le nombre de lignes doit être supérieur à 0.","invalidWidth":"La largeur du tableau doit être un nombre.","menu":"Propriétés du tableau","row":{"menu":"Ligne","insertBefore":"Insérer une ligne avant","insertAfter":"Insérer une ligne après","deleteRow":"Supprimer des lignes"},"rows":"Lignes","summary":"Résumé","title":"Propriétés du tableau","toolbar":"Tableau","widthPc":"pourcentage","widthPx":"pixels","widthUnit":"unité de largeur"},"undo":{"redo":"Refaire","undo":"Annuler"},"wsc":{"btnIgnore":"Ignorer","btnIgnoreAll":"Ignorer tout","btnReplace":"Remplacer","btnReplaceAll":"Remplacer tout","btnUndo":"Annuler","changeTo":"Changer en","errorLoading":"Error loading application service host: %s.","ieSpellDownload":"Le Correcteur d'orthographe n'est pas installé. Souhaitez-vous le télécharger maintenant?","manyChanges":"Vérification d'orthographe terminée: %1 mots modifiés","noChanges":"Vérification d'orthographe terminée: Pas de modifications","noMispell":"Vérification d'orthographe terminée: pas d'erreur trouvée","noSuggestions":"- Pas de suggestion -","notAvailable":"Sorry, but service is unavailable now.","notInDic":"Pas dans le dictionnaire","oneChange":"Vérification d'orthographe terminée: Un mot modifié","progress":"Vérification d'orthographe en cours...","title":"Spell Check","toolbar":"Orthographe"}};
+
+/**
+ * @fileOverview Defines the {@link CKEDITOR.lang} object, for the
+ * Canadian French language.
+ */
+
+/**#@+
+   @type String
+   @example
+*/
+
+/**
+ * Contains the dictionary of language entries.
+ * @namespace
+ */
+CKEDITOR.lang['fr-ca'] =
+{
+	/**
+	 * The language reading direction. Possible values are "rtl" for
+	 * Right-To-Left languages (like Arabic) and "ltr" for Left-To-Right
+	 * languages (like English).
+	 * @default 'ltr'
+	 */
+	dir : 'ltr',
+
+	/*
+	 * Screenreader titles. Please note that screenreaders are not always capable
+	 * of reading non-English words. So be careful while translating it.
+	 */
+	editorTitle : 'Editor de text enriquit, %1',
+	editorHelp : 'Prem ALT 0 per obtenir ajuda',
+
+	// ARIA descriptions.
+	toolbars	: 'Editor toolbars', // MISSING
+	editor		: 'Rich Text Editor', // MISSING
+
+	// Toolbar buttons without dialogs.
+	source			: 'Source',
+	newPage			: 'Nouvelle page',
+	save			: 'Sauvegarder',
+	preview			: 'Previsualiser',
+	cut				: 'Couper',
+	copy			: 'Copier',
+	paste			: 'Coller',
+	print			: 'Imprimer',
+	underline		: 'Souligné',
+	bold			: 'Gras',
+	italic			: 'Italique',
+	selectAll		: 'Tout sélectionner',
+	removeFormat	: 'Supprimer le formatage',
+	strike			: 'Barrer',
+	subscript		: 'Indice',
+	superscript		: 'Exposant',
+	horizontalrule	: 'Insérer un séparateur',
+	pagebreak		: 'Insérer un saut de page',
+	pagebreakAlt		: 'Page Break', // MISSING
+	unlink			: 'Supprimer le lien',
+	undo			: 'Annuler',
+	redo			: 'Refaire',
+
+	// Common messages and labels.
+	common :
+	{
+		browseServer	: 'Parcourir le serveur',
+		url				: 'URL',
+		protocol		: 'Protocole',
+		upload			: 'Télécharger',
+		uploadSubmit	: 'Envoyer sur le serveur',
+		image			: 'Image',
+		flash			: 'Animation Flash',
+		form			: 'Formulaire',
+		checkbox		: 'Case à cocher',
+		radio			: 'Bouton radio',
+		textField		: 'Champ texte',
+		textarea		: 'Zone de texte',
+		hiddenField		: 'Champ caché',
+		button			: 'Bouton',
+		select			: 'Champ de sélection',
+		imageButton		: 'Bouton image',
+		notSet			: '<Par défaut>',
+		id				: 'Id',
+		name			: 'Nom',
+		langDir			: 'Sens d\'écriture',
+		langDirLtr		: 'De gauche à droite (LTR)',
+		langDirRtl		: 'De droite à gauche (RTL)',
+		langCode		: 'Code langue',
+		longDescr		: 'URL de description longue',
+		cssClass		: 'Classes de feuilles de style',
+		advisoryTitle	: 'Titre',
+		cssStyle		: 'Style',
+		ok				: 'OK',
+		cancel			: 'Annuler',
+		close			: 'Close', // MISSING
+		preview			: 'Preview', // MISSING
+		generalTab		: 'Général',
+		advancedTab		: 'Avancée',
+		validateNumberFailed : 'This value is not a number.', // MISSING
+		confirmNewPage	: 'Any unsaved changes to this content will be lost. Are you sure you want to load new page?', // MISSING
+		confirmCancel	: 'Some of the options have been changed. Are you sure to close the dialog?', // MISSING
+		options			: 'Options', // MISSING
+		target			: 'Target', // MISSING
+		targetNew		: 'New Window (_blank)', // MISSING
+		targetTop		: 'Topmost Window (_top)', // MISSING
+		targetSelf		: 'Same Window (_self)', // MISSING
+		targetParent	: 'Parent Window (_parent)', // MISSING
+		langDirLTR		: 'Left to Right (LTR)', // MISSING
+		langDirRTL		: 'Right to Left (RTL)', // MISSING
+		styles			: 'Style', // MISSING
+		cssClasses		: 'Stylesheet Classes', // MISSING
+		width			: 'Largeur',
+		height			: 'Hauteur',
+		align			: 'Alignement',
+		alignLeft		: 'Gauche',
+		alignRight		: 'Droite',
+		alignCenter		: 'Centré',
+		alignTop		: 'Haut',
+		alignMiddle		: 'Milieu',
+		alignBottom		: 'Bas',
+		invalidValue	: 'Invalid value.', // MISSING
+		invalidHeight	: 'Height must be a number.', // MISSING
+		invalidWidth	: 'Width must be a number.', // MISSING
+		invalidCssLength	: 'Value specified for the "%1" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).', // MISSING
+		invalidHtmlLength	: 'Value specified for the "%1" field must be a positive number with or without a valid HTML measurement unit (px or %).', // MISSING
+		invalidInlineStyle	: 'Value specified for the inline style must consist of one or more tuples with the format of "name : value", separated by semi-colons.', // MISSING
+		cssLengthTooltip	: 'Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).', // MISSING
+
+		// Put the voice-only part of the label in the span.
+		unavailable		: '%1<span class="cke_accessibility">, unavailable</span>' // MISSING
+	},
+
+	contextmenu :
+	{
+		options : 'Context Menu Options' // MISSING
+	},
+
+	// Special char dialog.
+	specialChar		:
+	{
+		toolbar		: 'Insérer un caractère spécial',
+		title		: 'Insérer un caractère spécial',
+		options : 'Special Character Options' // MISSING
+	},
+
+	// Link dialog.
+	link :
+	{
+		toolbar		: 'Insérer/modifier le lien',
+		other 		: '<other>', // MISSING
+		menu		: 'Modifier le lien',
+		title		: 'Propriétés du lien',
+		info		: 'Informations sur le lien',
+		target		: 'Destination',
+		upload		: 'Télécharger',
+		advanced	: 'Avancée',
+		type		: 'Type de lien',
+		toUrl		: 'URL', // MISSING
+		toAnchor	: 'Ancre dans cette page',
+		toEmail		: 'E-Mail',
+		targetFrame		: '<Cadre>',
+		targetPopup		: '<fenêtre popup>',
+		targetFrameName	: 'Nom du cadre de destination',
+		targetPopupName	: 'Nom de la fenêtre popup',
+		popupFeatures	: 'Caractéristiques de la fenêtre popup',
+		popupResizable	: 'Resizable', // MISSING
+		popupStatusBar	: 'Barre d\'état',
+		popupLocationBar: 'Barre d\'adresses',
+		popupToolbar	: 'Barre d\'outils',
+		popupMenuBar	: 'Barre de menu',
+		popupFullScreen	: 'Plein écran (IE)',
+		popupScrollBars	: 'Barres de défilement',
+		popupDependent	: 'Dépendante (Netscape)',
+		popupLeft		: 'Position à partir de la gauche',
+		popupTop		: 'Position à partir du haut',
+		id				: 'Id', // MISSING
+		langDir			: 'Sens d\'écriture',
+		langDirLTR		: 'De gauche à droite (LTR)',
+		langDirRTL		: 'De droite à gauche (RTL)',
+		acccessKey		: 'Équivalent clavier',
+		name			: 'Nom',
+		langCode			: 'Sens d\'écriture',
+		tabIndex			: 'Ordre de tabulation',
+		advisoryTitle		: 'Titre',
+		advisoryContentType	: 'Type de contenu',
+		cssClasses		: 'Classes de feuilles de style',
+		charset			: 'Encodage de caractère',
+		styles			: 'Style',
+		rel			: 'Relationship', // MISSING
+		selectAnchor		: 'Sélectionner une ancre',
+		anchorName		: 'Par nom',
+		anchorId			: 'Par id',
+		emailAddress		: 'Adresse E-Mail',
+		emailSubject		: 'Sujet du message',
+		emailBody		: 'Corps du message',
+		noAnchors		: '(Pas d\'ancre disponible dans le document)',
+		noUrl			: 'Veuillez saisir l\'URL',
+		noEmail			: 'Veuillez saisir l\'adresse e-mail'
+	},
+
+	// Anchor dialog
+	anchor :
+	{
+		toolbar		: 'Insérer/modifier l\'ancre',
+		menu		: 'Propriétés de l\'ancre',
+		title		: 'Propriétés de l\'ancre',
+		name		: 'Nom de l\'ancre',
+		errorName	: 'Veuillez saisir le nom de l\'ancre',
+		remove		: 'Remove Anchor' // MISSING
+	},
+
+	// List style dialog
+	list:
+	{
+		numberedTitle		: 'Numbered List Properties', // MISSING
+		bulletedTitle		: 'Bulleted List Properties', // MISSING
+		type				: 'Type', // MISSING
+		start				: 'Start', // MISSING
+		validateStartNumber				:'List start number must be a whole number.', // MISSING
+		circle				: 'Circle', // MISSING
+		disc				: 'Disc', // MISSING
+		square				: 'Square', // MISSING
+		none				: 'None', // MISSING
+		notset				: '<not set>', // MISSING
+		armenian			: 'Armenian numbering', // MISSING
+		georgian			: 'Georgian numbering (an, ban, gan, etc.)', // MISSING
+		lowerRoman			: 'Lower Roman (i, ii, iii, iv, v, etc.)', // MISSING
+		upperRoman			: 'Upper Roman (I, II, III, IV, V, etc.)', // MISSING
+		lowerAlpha			: 'Lower Alpha (a, b, c, d, e, etc.)', // MISSING
+		upperAlpha			: 'Upper Alpha (A, B, C, D, E, etc.)', // MISSING
+		lowerGreek			: 'Lower Greek (alpha, beta, gamma, etc.)', // MISSING
+		decimal				: 'Decimal (1, 2, 3, etc.)', // MISSING
+		decimalLeadingZero	: 'Decimal leading zero (01, 02, 03, etc.)' // MISSING
+	},
+
+	// Find And Replace Dialog
+	findAndReplace :
+	{
+		title				: 'Chercher et Remplacer',
+		find				: 'Chercher',
+		replace				: 'Remplacer',
+		findWhat			: 'Rechercher:',
+		replaceWith			: 'Remplacer par:',
+		notFoundMsg			: 'Le texte indiqué est introuvable.',
+		findOptions			: 'Find Options', // MISSING
+		matchCase			: 'Respecter la casse',
+		matchWord			: 'Mot entier',
+		matchCyclic			: 'Match cyclic', // MISSING
+		replaceAll			: 'Tout remplacer',
+		replaceSuccessMsg	: '%1 occurrence(s) replaced.' // MISSING
+	},
+
+	// Table Dialog
+	table :
+	{
+		toolbar		: 'Tableau',
+		title		: 'Propriétés du tableau',
+		menu		: 'Propriétés du tableau',
+		deleteTable	: 'Supprimer le tableau',
+		rows		: 'Lignes',
+		columns		: 'Colonnes',
+		border		: 'Taille de la bordure',
+		widthPx		: 'pixels',
+		widthPc		: 'pourcentage',
+		widthUnit	: 'width unit', // MISSING
+		cellSpace	: 'Espacement',
+		cellPad		: 'Contour',
+		caption		: 'Titre',
+		summary		: 'Résumé',
+		headers		: 'Headers', // MISSING
+		headersNone		: 'None', // MISSING
+		headersColumn	: 'First column', // MISSING
+		headersRow		: 'First Row', // MISSING
+		headersBoth		: 'Both', // MISSING
+		invalidRows		: 'Number of rows must be a number greater than 0.', // MISSING
+		invalidCols		: 'Number of columns must be a number greater than 0.', // MISSING
+		invalidBorder	: 'Border size must be a number.', // MISSING
+		invalidWidth	: 'Table width must be a number.', // MISSING
+		invalidHeight	: 'Table height must be a number.', // MISSING
+		invalidCellSpacing	: 'Cell spacing must be a positive number.', // MISSING
+		invalidCellPadding	: 'Cell padding must be a positive number.', // MISSING
+
+		cell :
+		{
+			menu			: 'Cellule',
+			insertBefore	: 'Insérer une cellule avant',
+			insertAfter		: 'Insérer une cellule après',
+			deleteCell		: 'Supprimer des cellules',
+			merge			: 'Fusionner les cellules',
+			mergeRight		: 'Fusionner à droite',
+			mergeDown		: 'Fusionner en bas',
+			splitHorizontal	: 'Scinder la cellule horizontalement',
+			splitVertical	: 'Scinder la cellule verticalement',
+			title			: 'Cell Properties', // MISSING
+			cellType		: 'Cell Type', // MISSING
+			rowSpan			: 'Rows Span', // MISSING
+			colSpan			: 'Columns Span', // MISSING
+			wordWrap		: 'Word Wrap', // MISSING
+			hAlign			: 'Horizontal Alignment', // MISSING
+			vAlign			: 'Vertical Alignment', // MISSING
+			alignBaseline	: 'Baseline', // MISSING
+			bgColor			: 'Background Color', // MISSING
+			borderColor		: 'Border Color', // MISSING
+			data			: 'Data', // MISSING
+			header			: 'Header', // MISSING
+			yes				: 'Yes', // MISSING
+			no				: 'No', // MISSING
+			invalidWidth	: 'Cell width must be a number.', // MISSING
+			invalidHeight	: 'Cell height must be a number.', // MISSING
+			invalidRowSpan	: 'Rows span must be a whole number.', // MISSING
+			invalidColSpan	: 'Columns span must be a whole number.', // MISSING
+			chooseColor		: 'Choose' // MISSING
+		},
+
+		row :
+		{
+			menu			: 'Ligne',
+			insertBefore	: 'Insérer une ligne avant',
+			insertAfter		: 'Insérer une ligne après',
+			deleteRow		: 'Supprimer des lignes'
+		},
+
+		column :
+		{
+			menu			: 'Colonne',
+			insertBefore	: 'Insérer une colonne avant',
+			insertAfter		: 'Insérer une colonne après',
+			deleteColumn	: 'Supprimer des colonnes'
+		}
+	},
+
+	// Button Dialog.
+	button :
+	{
+		title		: 'Propriétés du bouton',
+		text		: 'Texte (Valeur)',
+		type		: 'Type',
+		typeBtn		: 'Bouton',
+		typeSbm		: 'Soumettre',
+		typeRst		: 'Réinitialiser'
+	},
+
+	// Checkbox and Radio Button Dialogs.
+	checkboxAndRadio :
+	{
+		checkboxTitle : 'Propriétés de la case à cocher',
+		radioTitle	: 'Propriétés du bouton radio',
+		value		: 'Valeur',
+		selected	: 'Sélectionné'
+	},
+
+	// Form Dialog.
+	form :
+	{
+		title		: 'Propriétés du formulaire',
+		menu		: 'Propriétés du formulaire',
+		action		: 'Action',
+		method		: 'Méthode',
+		encoding	: 'Encoding' // MISSING
+	},
+
+	// Select Field Dialog.
+	select :
+	{
+		title		: 'Propriétés de la liste/du menu',
+		selectInfo	: 'Info',
+		opAvail		: 'Options disponibles',
+		value		: 'Valeur',
+		size		: 'Taille',
+		lines		: 'lignes',
+		chkMulti	: 'Sélection multiple',
+		opText		: 'Texte',
+		opValue		: 'Valeur',
+		btnAdd		: 'Ajouter',
+		btnModify	: 'Modifier',
+		btnUp		: 'Monter',
+		btnDown		: 'Descendre',
+		btnSetValue : 'Valeur sélectionnée',
+		btnDelete	: 'Supprimer'
+	},
+
+	// Textarea Dialog.
+	textarea :
+	{
+		title		: 'Propriétés de la zone de texte',
+		cols		: 'Colonnes',
+		rows		: 'Lignes'
+	},
+
+	// Text Field Dialog.
+	textfield :
+	{
+		title		: 'Propriétés du champ texte',
+		name		: 'Nom',
+		value		: 'Valeur',
+		charWidth	: 'Largeur en caractères',
+		maxChars	: 'Nombre maximum de caractères',
+		type		: 'Type',
+		typeText	: 'Texte',
+		typePass	: 'Mot de passe'
+	},
+
+	// Hidden Field Dialog.
+	hidden :
+	{
+		title	: 'Propriétés du champ caché',
+		name	: 'Nom',
+		value	: 'Valeur'
+	},
+
+	// Image Dialog.
+	image :
+	{
+		title		: 'Propriétés de l\'image',
+		titleButton	: 'Propriétés du bouton image',
+		menu		: 'Propriétés de l\'image',
+		infoTab		: 'Informations sur l\'image',
+		btnUpload	: 'Envoyer sur le serveur',
+		upload		: 'Télécharger',
+		alt			: 'Texte de remplacement',
+		lockRatio	: 'Garder les proportions',
+		resetSize	: 'Taille originale',
+		border		: 'Bordure',
+		hSpace		: 'Espacement horizontal',
+		vSpace		: 'Espacement vertical',
+		alertUrl	: 'Veuillez saisir l\'URL de l\'image',
+		linkTab		: 'Lien',
+		button2Img	: 'Do you want to transform the selected image button on a simple image?', // MISSING
+		img2Button	: 'Do you want to transform the selected image on a image button?', // MISSING
+		urlMissing	: 'Image source URL is missing.', // MISSING
+		validateBorder	: 'Border must be a whole number.', // MISSING
+		validateHSpace	: 'HSpace must be a whole number.', // MISSING
+		validateVSpace	: 'VSpace must be a whole number.' // MISSING
+	},
+
+	// Flash Dialog
+	flash :
+	{
+		properties		: 'Propriétés de l\'animation Flash',
+		propertiesTab	: 'Properties', // MISSING
+		title			: 'Propriétés de l\'animation Flash',
+		chkPlay			: 'Lecture automatique',
+		chkLoop			: 'Boucle',
+		chkMenu			: 'Activer le menu Flash',
+		chkFull			: 'Allow Fullscreen', // MISSING
+ 		scale			: 'Affichage',
+		scaleAll		: 'Par défaut (tout montrer)',
+		scaleNoBorder	: 'Sans bordure',
+		scaleFit		: 'Ajuster aux dimensions',
+		access			: 'Script Access', // MISSING
+		accessAlways	: 'Always', // MISSING
+		accessSameDomain: 'Same domain', // MISSING
+		accessNever		: 'Never', // MISSING
+		alignAbsBottom	: 'Abs Bas',
+		alignAbsMiddle	: 'Abs Milieu',
+		alignBaseline	: 'Bas du texte',
+		alignTextTop	: 'Haut du texte',
+		quality			: 'Quality', // MISSING
+		qualityBest		: 'Best', // MISSING
+		qualityHigh		: 'High', // MISSING
+		qualityAutoHigh	: 'Auto High', // MISSING
+		qualityMedium	: 'Medium', // MISSING
+		qualityAutoLow	: 'Auto Low', // MISSING
+		qualityLow		: 'Low', // MISSING
+		windowModeWindow: 'Window', // MISSING
+		windowModeOpaque: 'Opaque', // MISSING
+		windowModeTransparent : 'Transparent', // MISSING
+		windowMode		: 'Window mode', // MISSING
+		flashvars		: 'Variables for Flash', // MISSING
+		bgcolor			: 'Couleur de fond',
+		hSpace			: 'Espacement horizontal',
+		vSpace			: 'Espacement vertical',
+		validateSrc		: 'Veuillez saisir l\'URL',
+		validateHSpace	: 'HSpace must be a number.', // MISSING
+		validateVSpace	: 'VSpace must be a number.' // MISSING
+	},
+
+	// Speller Pages Dialog
+	spellCheck :
+	{
+		toolbar			: 'Orthographe',
+		title			: 'Spell Check', // MISSING
+		notAvailable	: 'Sorry, but service is unavailable now.', // MISSING
+		errorLoading	: 'Error loading application service host: %s.', // MISSING
+		notInDic		: 'Pas dans le dictionnaire',
+		changeTo		: 'Changer en',
+		btnIgnore		: 'Ignorer',
+		btnIgnoreAll	: 'Ignorer tout',
+		btnReplace		: 'Remplacer',
+		btnReplaceAll	: 'Remplacer tout',
+		btnUndo			: 'Annuler',
+		noSuggestions	: '- Pas de suggestion -',
+		progress		: 'Vérification d\'orthographe en cours...',
+		noMispell		: 'Vérification d\'orthographe terminée: pas d\'erreur trouvée',
+		noChanges		: 'Vérification d\'orthographe terminée: Pas de modifications',
+		oneChange		: 'Vérification d\'orthographe terminée: Un mot modifié',
+		manyChanges		: 'Vérification d\'orthographe terminée: %1 mots modifiés',
+		ieSpellDownload	: 'Le Correcteur d\'orthographe n\'est pas installé. Souhaitez-vous le télécharger maintenant?'
+	},
+
+	smiley :
+	{
+		toolbar	: 'Emoticon',
+		title	: 'Insérer un Emoticon',
+		options : 'Smiley Options' // MISSING
+	},
+
+	elementsPath :
+	{
+		eleLabel : 'Elements path', // MISSING
+		eleTitle : '%1 element' // MISSING
+	},
+
+	numberedlist	: 'Liste numérotée',
+	bulletedlist	: 'Liste à puces',
+	indent			: 'Augmenter le retrait',
+	outdent			: 'Diminuer le retrait',
+
+	justify :
+	{
+		left	: 'Aligner à gauche',
+		center	: 'Centrer',
+		right	: 'Aligner à Droite',
+		block	: 'Texte justifié'
+	},
+
+	blockquote : 'Citation',
+
+	clipboard :
+	{
+		title		: 'Coller',
+		cutError	: 'Les paramètres de sécurité de votre navigateur empêchent l\'éditeur de couper automatiquement vos données. Veuillez utiliser les équivalents claviers (Ctrl/Cmd+X).',
+		copyError	: 'Les paramètres de sécurité de votre navigateur empêchent l\'éditeur de copier automatiquement vos données. Veuillez utiliser les équivalents claviers (Ctrl/Cmd+C).',
+		pasteMsg	: 'Veuillez coller dans la zone ci-dessous en utilisant le clavier (<STRONG>Ctrl/Cmd+V</STRONG>) et appuyer sur <STRONG>OK</STRONG>.',
+		securityMsg	: 'A cause des paramètres de sécurité de votre navigateur, l\'éditeur ne peut accéder au presse-papier directement. Vous devez coller à nouveau le contenu dans cette fenêtre.',
+		pasteArea	: 'Paste Area' // MISSING
+	},
+
+	pastefromword :
+	{
+		confirmCleanup	: 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?', // MISSING
+		toolbar			: 'Coller en tant que Word (formaté)',
+		title			: 'Coller en tant que Word (formaté)',
+		error			: 'It was not possible to clean up the pasted data due to an internal error' // MISSING
+	},
+
+	pasteText :
+	{
+		button	: 'Coller comme texte',
+		title	: 'Coller comme texte'
+	},
+
+	templates :
+	{
+		button			: 'Modèles',
+		title			: 'Modèles de contenu',
+		options : 'Template Options', // MISSING
+		insertOption	: 'Remplacer tout le contenu actuel',
+		selectPromptMsg	: 'Sélectionner le modèle à ouvrir dans l\'éditeur<br>(le contenu actuel sera remplacé):',
+		emptyListMsg	: '(Aucun modèle disponible)'
+	},
+
+	showBlocks : 'Afficher les blocs',
+
+	stylesCombo :
+	{
+		label		: 'Style',
+		panelTitle	: 'Formatting Styles', // MISSING
+		panelTitle1	: 'Block Styles', // MISSING
+		panelTitle2	: 'Inline Styles', // MISSING
+		panelTitle3	: 'Object Styles' // MISSING
+	},
+
+	format :
+	{
+		label		: 'Format',
+		panelTitle	: 'Format',
+
+		tag_p		: 'Normal',
+		tag_pre		: 'Formaté',
+		tag_address	: 'Adresse',
+		tag_h1		: 'En-tête 1',
+		tag_h2		: 'En-tête 2',
+		tag_h3		: 'En-tête 3',
+		tag_h4		: 'En-tête 4',
+		tag_h5		: 'En-tête 5',
+		tag_h6		: 'En-tête 6',
+		tag_div		: 'Normal (DIV)'
+	},
+
+	div :
+	{
+		title				: 'Create Div Container', // MISSING
+		toolbar				: 'Create Div Container', // MISSING
+		cssClassInputLabel	: 'Stylesheet Classes', // MISSING
+		styleSelectLabel	: 'Style', // MISSING
+		IdInputLabel		: 'Id', // MISSING
+		languageCodeInputLabel	: ' Language Code', // MISSING
+		inlineStyleInputLabel	: 'Inline Style', // MISSING
+		advisoryTitleInputLabel	: 'Advisory Title', // MISSING
+		langDirLabel		: 'Language Direction', // MISSING
+		langDirLTRLabel		: 'Left to Right (LTR)', // MISSING
+		langDirRTLLabel		: 'Right to Left (RTL)', // MISSING
+		edit				: 'Edit Div', // MISSING
+		remove				: 'Remove Div' // MISSING
+  	},
+
+	iframe :
+	{
+		title		: 'IFrame Properties', // MISSING
+		toolbar		: 'IFrame', // MISSING
+		noUrl		: 'Please type the iframe URL', // MISSING
+		scrolling	: 'Enable scrollbars', // MISSING
+		border		: 'Show frame border' // MISSING
+	},
+
+	font :
+	{
+		label		: 'Police',
+		voiceLabel	: 'Font', // MISSING
+		panelTitle	: 'Police'
+	},
+
+	fontSize :
+	{
+		label		: 'Taille',
+		voiceLabel	: 'Font Size', // MISSING
+		panelTitle	: 'Taille'
+	},
+
+	colorButton :
+	{
+		textColorTitle	: 'Couleur de caractère',
+		bgColorTitle	: 'Couleur de fond',
+		panelTitle		: 'Colors', // MISSING
+		auto			: 'Automatique',
+		more			: 'Plus de couleurs...'
+	},
+
+	colors :
+	{
+		'000' : 'Black', // MISSING
+		'800000' : 'Maroon', // MISSING
+		'8B4513' : 'Saddle Brown', // MISSING
+		'2F4F4F' : 'Dark Slate Gray', // MISSING
+		'008080' : 'Teal', // MISSING
+		'000080' : 'Navy', // MISSING
+		'4B0082' : 'Indigo', // MISSING
+		'696969' : 'Dark Gray', // MISSING
+		'B22222' : 'Fire Brick', // MISSING
+		'A52A2A' : 'Brown', // MISSING
+		'DAA520' : 'Golden Rod', // MISSING
+		'006400' : 'Dark Green', // MISSING
+		'40E0D0' : 'Turquoise', // MISSING
+		'0000CD' : 'Medium Blue', // MISSING
+		'800080' : 'Purple', // MISSING
+		'808080' : 'Gray', // MISSING
+		'F00' : 'Red', // MISSING
+		'FF8C00' : 'Dark Orange', // MISSING
+		'FFD700' : 'Gold', // MISSING
+		'008000' : 'Green', // MISSING
+		'0FF' : 'Cyan', // MISSING
+		'00F' : 'Blue', // MISSING
+		'EE82EE' : 'Violet', // MISSING
+		'A9A9A9' : 'Dim Gray', // MISSING
+		'FFA07A' : 'Light Salmon', // MISSING
+		'FFA500' : 'Orange', // MISSING
+		'FFFF00' : 'Yellow', // MISSING
+		'00FF00' : 'Lime', // MISSING
+		'AFEEEE' : 'Pale Turquoise', // MISSING
+		'ADD8E6' : 'Light Blue', // MISSING
+		'DDA0DD' : 'Plum', // MISSING
+		'D3D3D3' : 'Light Grey', // MISSING
+		'FFF0F5' : 'Lavender Blush', // MISSING
+		'FAEBD7' : 'Antique White', // MISSING
+		'FFFFE0' : 'Light Yellow', // MISSING
+		'F0FFF0' : 'Honeydew', // MISSING
+		'F0FFFF' : 'Azure', // MISSING
+		'F0F8FF' : 'Alice Blue', // MISSING
+		'E6E6FA' : 'Lavender', // MISSING
+		'FFF' : 'White' // MISSING
+	},
+
+	scayt :
+	{
+		title			: 'Spell Check As You Type', // MISSING
+		opera_title		: 'Not supported by Opera', // MISSING
+		enable			: 'Enable SCAYT', // MISSING
+		disable			: 'Disable SCAYT', // MISSING
+		about			: 'About SCAYT', // MISSING
+		toggle			: 'Toggle SCAYT', // MISSING
+		options			: 'Options', // MISSING
+		langs			: 'Languages', // MISSING
+		moreSuggestions	: 'More suggestions', // MISSING
+		ignore			: 'Ignore', // MISSING
+		ignoreAll		: 'Ignore All', // MISSING
+		addWord			: 'Add Word', // MISSING
+		emptyDic		: 'Dictionary name should not be empty.', // MISSING
+
+		optionsTab		: 'Options', // MISSING
+		allCaps			: 'Ignore All-Caps Words', // MISSING
+		ignoreDomainNames : 'Ignore Domain Names', // MISSING
+		mixedCase		: 'Ignore Words with Mixed Case', // MISSING
+		mixedWithDigits	: 'Ignore Words with Numbers', // MISSING
+
+		languagesTab	: 'Languages', // MISSING
+
+		dictionariesTab	: 'Dictionaries', // MISSING
+		dic_field_name	: 'Dictionary name', // MISSING
+		dic_create		: 'Create', // MISSING
+		dic_restore		: 'Restore', // MISSING
+		dic_delete		: 'Delete', // MISSING
+		dic_rename		: 'Rename', // MISSING
+		dic_info		: 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.', // MISSING
+
+		aboutTab		: 'About' // MISSING
+	},
+
+	about :
+	{
+		title		: 'About CKEditor', // MISSING
+		dlgTitle	: 'About CKEditor', // MISSING
+		help	: 'Check $1 for help.', // MISSING
+		userGuide : 'CKEditor User\'s Guide', // MISSING
+		moreInfo	: 'For licensing information please visit our web site:', // MISSING
+		copy		: 'Copyright &copy; $1. All rights reserved.' // MISSING
+	},
+
+	maximize : 'Maximize', // MISSING
+	minimize : 'Minimize', // MISSING
+
+	fakeobjects :
+	{
+		anchor		: 'Anchor', // MISSING
+		flash		: 'Flash Animation', // MISSING
+		iframe		: 'IFrame', // MISSING
+		hiddenfield	: 'Hidden Field', // MISSING
+		unknown		: 'Unknown Object' // MISSING
+	},
+
+	resize : 'Drag to resize', // MISSING
+
+	colordialog :
+	{
+		title		: 'Select color', // MISSING
+		options	:	'Color Options', // MISSING
+		highlight	: 'Highlight', // MISSING
+		selected	: 'Selected Color', // MISSING
+		clear		: 'Clear' // MISSING
+	},
+
+	toolbarCollapse	: 'Collapse Toolbar', // MISSING
+	toolbarExpand	: 'Expand Toolbar', // MISSING
+
+	toolbarGroups :
+	{
+		document : 'Document', // MISSING
+		clipboard : 'Clipboard/Undo', // MISSING
+		editing : 'Editing', // MISSING
+		forms : 'Forms', // MISSING
+		basicstyles : 'Basic Styles', // MISSING
+		paragraph : 'Paragraph', // MISSING
+		links : 'Links', // MISSING
+		insert : 'Insert', // MISSING
+		styles : 'Styles', // MISSING
+		colors : 'Colors', // MISSING
+		tools : 'Tools' // MISSING
+	},
+
+	bidi :
+	{
+		ltr : 'Text direction from left to right', // MISSING
+		rtl : 'Text direction from right to left' // MISSING
+	},
+
+	docprops :
+	{
+		label : 'Propriétés du document',
+		title : 'Propriétés du document',
+		design : 'Design', // MISSING
+		meta : 'Méta-Données',
+		chooseColor : 'Choose', // MISSING
+		other : '<other>',
+		docTitle :	'Titre de la page',
+		charset : 	'Encodage de caractère',
+		charsetOther : 'Autre encodage de caractère',
+		charsetASCII : 'ASCII', // MISSING
+		charsetCE : 'Europe Centrale',
+		charsetCT : 'Chinois Traditionnel (Big5)',
+		charsetCR : 'Cyrillique',
+		charsetGR : 'Grecque',
+		charsetJP : 'Japonais',
+		charsetKR : 'Coréen',
+		charsetTR : 'Turcque',
+		charsetUN : 'Unicode (UTF-8)', // MISSING
+		charsetWE : 'Occidental',
+		docType : 'Type de document',
+		docTypeOther : 'Autre type de document',
+		xhtmlDec : 'Inclure les déclarations XHTML',
+		bgColor : 'Couleur de fond',
+		bgImage : 'Image de fond',
+		bgFixed : 'Image fixe sans défilement',
+		txtColor : 'Couleur de caractère',
+		margin : 'Marges',
+		marginTop : 'Haut',
+		marginLeft : 'Gauche',
+		marginRight : 'Droite',
+		marginBottom : 'Bas',
+		metaKeywords : 'Mots-clés (séparés par des virgules)',
+		metaDescription : 'Description',
+		metaAuthor : 'Auteur',
+		metaCopyright : 'Copyright', // MISSING
+		previewHtml : '<p>This is some <strong>sample text</strong>. You are using <a href="javascript:void(0)">CKEditor</a>.</p>' // MISSING
+	}
+};

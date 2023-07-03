@@ -1,5 +1,817 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
-CKEDITOR.lang['eu']={"editor":"Testu Aberastuko Editorea","editorPanel":"Rich Text Editor panel","common":{"editorHelp":"ALT 0 sakatu laguntza jasotzeko","browseServer":"Zerbitzaria arakatu","url":"URL","protocol":"Protokoloa","upload":"Gora kargatu","uploadSubmit":"Zerbitzarira bidali","image":"Irudia","flash":"Flasha","form":"Formularioa","checkbox":"Kontrol-laukia","radio":"Aukera-botoia","textField":"Testu Eremua","textarea":"Testu-area","hiddenField":"Ezkutuko Eremua","button":"Botoia","select":"Hautespen Eremua","imageButton":"Irudi Botoia","notSet":"<Ezarri gabe>","id":"Id","name":"Izena","langDir":"Hizkuntzaren Norabidea","langDirLtr":"Ezkerretik Eskumara(LTR)","langDirRtl":"Eskumatik Ezkerrera (RTL)","langCode":"Hizkuntza Kodea","longDescr":"URL Deskribapen Luzea","cssClass":"Estilo-orriko Klaseak","advisoryTitle":"Izenburua","cssStyle":"Estiloa","ok":"Ados","cancel":"Utzi","close":"Itxi","preview":"Aurrebista","resize":"Arrastatu tamaina aldatzeko","generalTab":"Orokorra","advancedTab":"Aurreratua","validateNumberFailed":"Balio hau ez da zenbaki bat.","confirmNewPage":"Eduki honetan gorde gabe dauden aldaketak galduko dira. Ziur zaude orri berri bat kargatu nahi duzula?","confirmCancel":"Aukera batzuk aldatu egin dira. Ziur zaude elkarrizketa-koadroa itxi nahi duzula?","options":"Aukerak","target":"Target (Helburua)","targetNew":"Leiho Berria (_blank)","targetTop":"Goieneko Leihoan (_top)","targetSelf":"Leiho Berdinean (_self)","targetParent":"Leiho Gurasoan (_parent)","langDirLTR":"Ezkerretik Eskumara(LTR)","langDirRTL":"Eskumatik Ezkerrera (RTL)","styles":"Estiloa","cssClasses":"Estilo-orriko Klaseak","width":"Zabalera","height":"Altuera","align":"Lerrokatu","alignLeft":"Ezkerrera","alignRight":"Eskuman","alignCenter":"Erdian","alignTop":"Goian","alignMiddle":"Erdian","alignBottom":"Behean","invalidValue":"Balio ezegokia.","invalidHeight":"Altuera zenbaki bat izan behar da.","invalidWidth":"Zabalera zenbaki bat izan behar da.","invalidCssLength":"\"%1\" eremurako zehaztutako balioa zenbaki positibo bat izan behar du, aukeran CSS neurri unitate batekin (px, %, in, cm, mm, em, ex, pt edo pc).","invalidHtmlLength":"\"%1\" eremurako zehaztutako balioa zenbaki positibo bat izan behar du, aukeran HTML neurri unitate batekin (px edo %).","invalidInlineStyle":"Lerroko estiloan zehazten dena tupla \"name : value\" formatuko eta puntu eta komaz bereiztutako tupla bat edo gehiago izan behar dira.","cssLengthTooltip":"Zenbakia bakarrik zehazten bada pixeletan egongo da. CSS neurri unitatea ere zehaztu ahal da (px, %, in, cm, mm, em, ex, pt, edo pc).","unavailable":"%1<span class=\"cke_accessibility\">, erabilezina</span>"},"about":{"copy":"Copyright &copy; $1. Eskubide guztiak erreserbaturik.","dlgTitle":"CKEditor(r)i buruz","help":"$1 aztertu laguntza jasotzeko.","moreInfo":"Lizentziari buruzko informazioa gure webgunean:","title":"CKEditor(r)i buruz","userGuide":"CKEditor User's Guide"},"basicstyles":{"bold":"Lodia","italic":"Etzana","strike":"Marratua","subscript":"Azpi-indize","superscript":"Goi-indize","underline":"Azpimarratu"},"bidi":{"ltr":"Testuaren norantza ezkerretik eskuinera","rtl":"Testuaren norantza eskuinetik ezkerrera"},"blockquote":{"toolbar":"Aipamen blokea"},"clipboard":{"copy":"Kopiatu","copyError":"Zure web nabigatzailearen segurtasun ezarpenak testuak automatikoki kopiatzea ez dute baimentzen. Mesedez teklatua erabili ezazu (Ctrl/Cmd+C).","cut":"Ebaki","cutError":"Zure web nabigatzailearen segurtasun ezarpenak testuak automatikoki moztea ez dute baimentzen. Mesedez teklatua erabili ezazu (Ctrl/Cmd+X).","paste":"Itsatsi","pasteArea":"Itsasteko Area","pasteMsg":"Mesedez teklatua erabilita (<STRONG>Ctrl/Cmd+V</STRONG>) ondorego eremuan testua itsatsi eta <STRONG>OK</STRONG> sakatu.","securityMsg":"Nabigatzailearen segurtasun ezarpenak direla eta, editoreak ezin du arbela zuzenean erabili. Leiho honetan berriro itsatsi behar duzu.","title":"Itsatsi"},"colorbutton":{"auto":"Automatikoa","bgColorTitle":"Atzeko kolorea","colors":{"000":"Black","800000":"Maroon","8B4513":"Saddle Brown","2F4F4F":"Dark Slate Gray","008080":"Teal","000080":"Navy","4B0082":"Indigo","696969":"Dark Gray","B22222":"Fire Brick","A52A2A":"Brown","DAA520":"Golden Rod","006400":"Dark Green","40E0D0":"Turquoise","0000CD":"Medium Blue","800080":"Purple","808080":"Gray","F00":"Red","FF8C00":"Dark Orange","FFD700":"Gold","008000":"Green","0FF":"Cyan","00F":"Blue","EE82EE":"Violet","A9A9A9":"Dim Gray","FFA07A":"Light Salmon","FFA500":"Orange","FFFF00":"Yellow","00FF00":"Lime","AFEEEE":"Pale Turquoise","ADD8E6":"Light Blue","DDA0DD":"Plum","D3D3D3":"Light Grey","FFF0F5":"Lavender Blush","FAEBD7":"Antique White","FFFFE0":"Light Yellow","F0FFF0":"Honeydew","F0FFFF":"Azure","F0F8FF":"Alice Blue","E6E6FA":"Lavender","FFF":"White"},"more":"Kolore gehiago...","panelTitle":"Colors","textColorTitle":"Testu Kolorea"},"colordialog":{"clear":"Garbitu","highlight":"Nabarmendu","options":"Kolore Aukerak","selected":"Hautatutako Kolorea","title":"Kolorea Hautatu"},"templates":{"button":"Txantiloiak","emptyListMsg":"(Ez dago definitutako txantiloirik)","insertOption":"Ordeztu oraingo edukiak","options":"Txantiloi Aukerak","selectPromptMsg":"Mesedez txantiloia aukeratu editorean kargatzeko<br>(orain dauden edukiak galduko dira):","title":"Eduki Txantiloiak"},"contextmenu":{"options":"Testuingurko Menuaren Aukerak"},"div":{"IdInputLabel":"Id","advisoryTitleInputLabel":"Izenburua","cssClassInputLabel":"Estilo-orriko Klaseak","edit":"Div-a editatu","inlineStyleInputLabel":"Inline Estiloa","langDirLTRLabel":"Ezkerretik Eskuinera (LTR)","langDirLabel":"Hizkuntzaren Norabidea","langDirRTLLabel":"Eskumatik Ezkerrera (RTL)","languageCodeInputLabel":"Hizkuntza Kodea","remove":"Div-a Kendu","styleSelectLabel":"Estiloa","title":"Div Edukiontzia Sortu","toolbar":"Div Edukiontzia Sortu"},"toolbar":{"toolbarCollapse":"Tresna-barra Txikitu","toolbarExpand":"Tresna-barra Luzatu","toolbarGroups":{"document":"Document","clipboard":"Clipboard/Undo","editing":"Editing","forms":"Forms","basicstyles":"Basic Styles","paragraph":"Paragraph","links":"Links","insert":"Insert","styles":"Styles","colors":"Colors","tools":"Tools"},"toolbars":"Editorearen Tresna-barra"},"elementspath":{"eleLabel":"Elementu bidea","eleTitle":"%1 elementua"},"find":{"find":"Bilatu","findOptions":"Find Options","findWhat":"Zer bilatu:","matchCase":"Maiuskula/minuskula","matchCyclic":"Bilaketa ziklikoa","matchWord":"Esaldi osoa bilatu","notFoundMsg":"Idatzitako testua ez da topatu.","replace":"Ordezkatu","replaceAll":"Ordeztu Guztiak","replaceSuccessMsg":"Zenbat aldiz ordeztua: %1","replaceWith":"Zerekin ordeztu:","title":"Bilatu eta Ordeztu"},"fakeobjects":{"anchor":"Aingura","flash":"Flash Animazioa","hiddenfield":"Ezkutuko Eremua","iframe":"IFrame","unknown":"Objektu ezezaguna"},"flash":{"access":"Scriptak baimendu","accessAlways":"Beti","accessNever":"Inoiz ere ez","accessSameDomain":"Domeinu berdinekoak","alignAbsBottom":"Abs Behean","alignAbsMiddle":"Abs Erdian","alignBaseline":"Oinan","alignTextTop":"Testua Goian","bgcolor":"Atzeko kolorea","chkFull":"Onartu Pantaila osoa","chkLoop":"Begizta","chkMenu":"Flasharen Menua Gaitu","chkPlay":"Automatikoki Erreproduzitu","flashvars":"Flash Aldagaiak","hSpace":"HSpace","properties":"Flasharen Ezaugarriak","propertiesTab":"Ezaugarriak","quality":"Kalitatea","qualityAutoHigh":"Auto Altua","qualityAutoLow":"Auto Baxua","qualityBest":"Hoberena","qualityHigh":"Altua","qualityLow":"Baxua","qualityMedium":"Ertaina","scale":"Eskalatu","scaleAll":"Dena erakutsi","scaleFit":"Doitu","scaleNoBorder":"Ertzik gabe","title":"Flasharen Ezaugarriak","vSpace":"VSpace","validateHSpace":"HSpace zenbaki bat izan behar da.","validateSrc":"Mesedez URL esteka idatzi","validateVSpace":"VSpace zenbaki bat izan behar da.","windowMode":"Leihoaren modua","windowModeOpaque":"Opakoa","windowModeTransparent":"Gardena","windowModeWindow":"Leihoa"},"font":{"fontSize":{"label":"Tamaina","voiceLabel":"Tamaina","panelTitle":"Tamaina"},"label":"Letra-tipoa","panelTitle":"Letra-tipoa","voiceLabel":"Letra-tipoa"},"forms":{"button":{"title":"Botoiaren Ezaugarriak","text":"Testua (Balorea)","type":"Mota","typeBtn":"Botoia","typeSbm":"Bidali","typeRst":"Garbitu"},"checkboxAndRadio":{"checkboxTitle":"Kontrol-laukiko Ezaugarriak","radioTitle":"Aukera-botoiaren Ezaugarriak","value":"Balorea","selected":"Hautatuta"},"form":{"title":"Formularioaren Ezaugarriak","menu":"Formularioaren Ezaugarriak","action":"Ekintza","method":"Metodoa","encoding":"Kodeketa"},"hidden":{"title":"Ezkutuko Eremuaren Ezaugarriak","name":"Izena","value":"Balorea"},"select":{"title":"Hautespen Eremuaren Ezaugarriak","selectInfo":"Informazioa","opAvail":"Aukera Eskuragarriak","value":"Balorea","size":"Tamaina","lines":"lerro kopurura","chkMulti":"Hautaketa anitzak baimendu","opText":"Testua","opValue":"Balorea","btnAdd":"Gehitu","btnModify":"Aldatu","btnUp":"Gora","btnDown":"Behera","btnSetValue":"Aukeratutako balorea ezarri","btnDelete":"Ezabatu"},"textarea":{"title":"Testu-arearen Ezaugarriak","cols":"Zutabeak","rows":"Lerroak"},"textfield":{"title":"Testu Eremuaren Ezaugarriak","name":"Izena","value":"Balorea","charWidth":"Zabalera","maxChars":"Zenbat karaktere gehienez","type":"Mota","typeText":"Testua","typePass":"Pasahitza","typeEmail":"E-posta","typeSearch":"Bilatu","typeTel":"Telefono Zenbakia","typeUrl":"URL"}},"format":{"label":"Formatua","panelTitle":"Formatua","tag_address":"Helbidea","tag_div":"Paragrafoa (DIV)","tag_h1":"Izenburua 1","tag_h2":"Izenburua 2","tag_h3":"Izenburua 3","tag_h4":"Izenburua 4","tag_h5":"Izenburua 5","tag_h6":"Izenburua 6","tag_p":"Arrunta","tag_pre":"Formateatua"},"horizontalrule":{"toolbar":"Txertatu Marra Horizontala"},"iframe":{"border":"Markoaren ertza ikusi","noUrl":"iframe-aren URLa idatzi, mesedez.","scrolling":"Korritze barrak gaitu","title":"IFrame-aren Propietateak","toolbar":"IFrame"},"image":{"alertUrl":"Mesedez Irudiaren URLa idatzi","alt":"Ordezko Testua","border":"Ertza","btnUpload":"Zerbitzarira bidalia","button2Img":"Aukeratutako irudi botoia, irudi normal batean eraldatu nahi duzu?","hSpace":"HSpace","img2Button":"Aukeratutako irudia, irudi botoi batean eraldatu nahi duzu?","infoTab":"Irudi informazioa","linkTab":"Esteka","lockRatio":"Erlazioa Blokeatu","menu":"Irudi Ezaugarriak","resetSize":"Tamaina Berrezarri","title":"Irudi Ezaugarriak","titleButton":"Irudi Botoiaren Ezaugarriak","upload":"Gora Kargatu","urlMissing":"Irudiaren iturburu URL-a falta da.","vSpace":"VSpace","validateBorder":"Ertza zenbaki oso bat izan behar da.","validateHSpace":"HSpace zenbaki oso bat izan behar da.","validateVSpace":"VSpace zenbaki oso bat izan behar da."},"indent":{"indent":"Handitu Koska","outdent":"Txikitu Koska"},"smiley":{"options":"Aurpegiera Aukerak","title":"Aurpegiera Sartu","toolbar":"Aurpegierak"},"justify":{"block":"Justifikatu","center":"Lerrokatu Erdian","left":"Lerrokatu Ezkerrean","right":"Lerrokatu Eskuman"},"language":{"button":"Set language","remove":"Remove language"},"link":{"acccessKey":"Sarbide-gakoa","advanced":"Aurreratua","advisoryContentType":"Eduki Mota (Content Type)","advisoryTitle":"Izenburua","anchor":{"toolbar":"Aingura","menu":"Ainguraren Ezaugarriak","title":"Ainguraren Ezaugarriak","name":"Ainguraren Izena","errorName":"Idatzi ainguraren izena","remove":"Remove Anchor"},"anchorId":"Elementuaren ID-gatik","anchorName":"Aingura izenagatik","charset":"Estekatutako Karaktere Multzoa","cssClasses":"Estilo-orriko Klaseak","emailAddress":"ePosta Helbidea","emailBody":"Mezuaren Gorputza","emailSubject":"Mezuaren Gaia","id":"Id","info":"Estekaren Informazioa","langCode":"Hizkuntzaren Norabidea","langDir":"Hizkuntzaren Norabidea","langDirLTR":"Ezkerretik Eskumara(LTR)","langDirRTL":"Eskumatik Ezkerrera (RTL)","menu":"Aldatu Esteka","name":"Izena","noAnchors":"(Ez daude aingurak eskuragarri dokumentuan)","noEmail":"Mesedez ePosta helbidea idatzi","noUrl":"Mesedez URL esteka idatzi","other":"<bestelakoa>","popupDependent":"Menpekoa (Netscape)","popupFeatures":"Popup Leihoaren Ezaugarriak","popupFullScreen":"Pantaila Osoa (IE)","popupLeft":"Ezkerreko  Posizioa","popupLocationBar":"Kokaleku Barra","popupMenuBar":"Menu Barra","popupResizable":"Tamaina Aldakorra","popupScrollBars":"Korritze Barrak","popupStatusBar":"Egoera Barra","popupToolbar":"Tresna Barra","popupTop":"Goiko Posizioa","rel":"Erlazioa","selectAnchor":"Aingura bat hautatu","styles":"Estiloa","tabIndex":"Tabulazio Indizea","target":"Target (Helburua)","targetFrame":"<marko>","targetFrameName":"Marko Helburuaren Izena","targetPopup":"<popup leihoa>","targetPopupName":"Popup Leihoaren Izena","title":"Esteka","toAnchor":"Aingura orrialde honetan","toEmail":"ePosta","toUrl":"URL","toolbar":"Txertatu/Editatu Esteka","type":"Esteka Mota","unlink":"Kendu Esteka","upload":"Gora kargatu"},"list":{"bulletedlist":"Buletdun Zerrenda","numberedlist":"Zenbakidun Zerrenda"},"liststyle":{"armenian":"Armenian numbering","bulletedTitle":"Bulleted List Properties","circle":"Circle","decimal":"Decimal (1, 2, 3, etc.)","decimalLeadingZero":"Decimal leading zero (01, 02, 03, etc.)","disc":"Disc","georgian":"Georgian numbering (an, ban, gan, etc.)","lowerAlpha":"Lower Alpha (a, b, c, d, e, etc.)","lowerGreek":"Lower Greek (alpha, beta, gamma, etc.)","lowerRoman":"Lower Roman (i, ii, iii, iv, v, etc.)","none":"None","notset":"<not set>","numberedTitle":"Numbered List Properties","square":"Square","start":"Start","type":"Type","upperAlpha":"Upper Alpha (A, B, C, D, E, etc.)","upperRoman":"Upper Roman (I, II, III, IV, V, etc.)","validateStartNumber":"List start number must be a whole number."},"magicline":{"title":"Txertatu paragrafoa hemen"},"maximize":{"maximize":"Maximizatu","minimize":"Minimizatu"},"newpage":{"toolbar":"Orrialde Berria"},"pagebreak":{"alt":"Orrialde-jauzia","toolbar":"Txertatu Orrialde-jauzia Inprimatzean"},"pastetext":{"button":"Testu Arrunta bezala Itsatsi","title":"Testu Arrunta bezala Itsatsi"},"pastefromword":{"confirmCleanup":"Itsatsi nahi duzun testua Wordetik hartua dela dirudi. Itsatsi baino lehen garbitu nahi duzu?","error":"Barneko errore bat dela eta ezin izan da testua garbitu","title":"Itsatsi Word-etik","toolbar":"Itsatsi Word-etik"},"preview":{"preview":"Aurrebista"},"print":{"toolbar":"Inprimatu"},"removeformat":{"toolbar":"Kendu Formatua"},"save":{"toolbar":"Gorde"},"selectall":{"toolbar":"Hautatu dena"},"showblocks":{"toolbar":"Blokeak erakutsi"},"sourcearea":{"toolbar":"HTML Iturburua"},"specialchar":{"options":"Karaktere Berezien Aukerak","title":"Karaktere Berezia Aukeratu","toolbar":"Txertatu Karaktere Berezia"},"scayt":{"about":"SCAYTi buruz","aboutTab":"Honi buruz","addWord":"Hitza Gehitu","allCaps":"Ignore All-Caps Words","dic_create":"Create","dic_delete":"Delete","dic_field_name":"Dictionary name","dic_info":"Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.","dic_rename":"Rename","dic_restore":"Restore","dictionariesTab":"Hiztegiak","disable":"Desgaitu SCAYT","emptyDic":"Hiztegiaren izena ezin da hutsik egon.","enable":"Gaitu SCAYT","ignore":"Baztertu","ignoreAll":"Denak baztertu","ignoreDomainNames":"Ignore Domain Names","langs":"Hizkuntzak","languagesTab":"Hizkuntzak","mixedCase":"Ignore Words with Mixed Case","mixedWithDigits":"Ignore Words with Numbers","moreSuggestions":"Iradokizun gehiago","opera_title":"Not supported by Opera","options":"Aukerak","optionsTab":"Aukerak","title":"Ortografia Zuzenketa Idatzi Ahala (SCAYT)","toggle":"SCAYT aldatu","noSuggestions":"No suggestion"},"stylescombo":{"label":"Estiloa","panelTitle":"Formatu Estiloak","panelTitle1":"Bloke Estiloak","panelTitle2":"Inline Estiloak","panelTitle3":"Objektu Estiloak"},"table":{"border":"Ertzaren Zabalera","caption":"Epigrafea","cell":{"menu":"Gelaxka","insertBefore":"Txertatu Gelaxka Aurretik","insertAfter":"Txertatu Gelaxka Ostean","deleteCell":"Kendu Gelaxkak","merge":"Batu Gelaxkak","mergeRight":"Elkartu Eskumara","mergeDown":"Elkartu Behera","splitHorizontal":"Banatu Gelaxkak Horizontalki","splitVertical":"Banatu Gelaxkak Bertikalki","title":"Gelaxken Ezaugarriak","cellType":"Gelaxka Mota","rowSpan":"Hedatutako Lerroak","colSpan":"Hedatutako Zutabeak","wordWrap":"Itzulbira","hAlign":"Lerrokatze Horizontala","vAlign":"Lerrokatze Bertikala","alignBaseline":"Oinarri-lerroan","bgColor":"Fondoaren Kolorea","borderColor":"Ertzaren Kolorea","data":"Data","header":"Goiburua","yes":"Bai","no":"Ez","invalidWidth":"Gelaxkaren zabalera zenbaki bat izan behar da.","invalidHeight":"Gelaxkaren altuera zenbaki bat izan behar da.","invalidRowSpan":"Lerroen hedapena zenbaki osoa izan behar da.","invalidColSpan":"Zutabeen hedapena zenbaki osoa izan behar da.","chooseColor":"Choose"},"cellPad":"Gelaxken betegarria","cellSpace":"Gelaxka arteko tartea","column":{"menu":"Zutabea","insertBefore":"Txertatu Zutabea Aurretik","insertAfter":"Txertatu Zutabea Ostean","deleteColumn":"Ezabatu Zutabeak"},"columns":"Zutabeak","deleteTable":"Ezabatu Taula","headers":"Goiburuak","headersBoth":"Biak","headersColumn":"Lehen zutabea","headersNone":"Bat ere ez","headersRow":"Lehen lerroa","invalidBorder":"Ertzaren tamaina zenbaki bat izan behar da.","invalidCellPadding":"Gelaxken betegarria zenbaki bat izan behar da.","invalidCellSpacing":"Gelaxka arteko tartea zenbaki bat izan behar da.","invalidCols":"Zutabe kopurua 0 baino handiagoa den zenbakia izan behar da.","invalidHeight":"Taularen altuera zenbaki bat izan behar da.","invalidRows":"Lerro kopurua 0 baino handiagoa den zenbakia izan behar da.","invalidWidth":"Taularen zabalera zenbaki bat izan behar da.","menu":"Taularen Ezaugarriak","row":{"menu":"Lerroa","insertBefore":"Txertatu Lerroa Aurretik","insertAfter":"Txertatu Lerroa Ostean","deleteRow":"Ezabatu Lerroak"},"rows":"Lerroak","summary":"Laburpena","title":"Taularen Ezaugarriak","toolbar":"Taula","widthPc":"ehuneko","widthPx":"pixel","widthUnit":"zabalera unitatea"},"undo":{"redo":"Berregin","undo":"Desegin"},"wsc":{"btnIgnore":"Ezikusi","btnIgnoreAll":"Denak Ezikusi","btnReplace":"Ordezkatu","btnReplaceAll":"Denak Ordezkatu","btnUndo":"Desegin","changeTo":"Honekin ordezkatu","errorLoading":"Errorea gertatu da aplikazioa zerbitzaritik kargatzean: %s.","ieSpellDownload":"Zuzentzaile ortografikoa ez dago instalatuta. Deskargatu nahi duzu?","manyChanges":"Zuzenketa ortografikoa bukatuta: %1 hitz aldatu dira","noChanges":"Zuzenketa ortografikoa bukatuta: Ez da ezer aldatu","noMispell":"Zuzenketa ortografikoa bukatuta: Akatsik ez","noSuggestions":"- Iradokizunik ez -","notAvailable":"Barkatu baina momentu honetan zerbitzua ez dago erabilgarri.","notInDic":"Ez dago hiztegian","oneChange":"Zuzenketa ortografikoa bukatuta: Hitz bat aldatu da","progress":"Zuzenketa ortografikoa martxan...","title":"Ortografia zuzenketa","toolbar":"Ortografia"}};
+
+/**
+ * @fileOverview Defines the {@link CKEDITOR.lang} object, for the
+ * Basque language.
+ */
+
+/**#@+
+   @type String
+   @example
+*/
+
+/**
+ * Contains the dictionary of language entries.
+ * @namespace
+ */
+CKEDITOR.lang['eu'] =
+{
+	/**
+	 * The language reading direction. Possible values are "rtl" for
+	 * Right-To-Left languages (like Arabic) and "ltr" for Left-To-Right
+	 * languages (like English).
+	 * @default 'ltr'
+	 */
+	dir : 'ltr',
+
+	/*
+	 * Screenreader titles. Please note that screenreaders are not always capable
+	 * of reading non-English words. So be careful while translating it.
+	 */
+	editorTitle : 'Rich text editor, %1', // MISSING
+	editorHelp : 'Press ALT 0 for help', // MISSING
+
+	// ARIA descriptions.
+	toolbars	: 'Editor toolbars', // MISSING
+	editor		: 'Rich Text Editor', // MISSING
+
+	// Toolbar buttons without dialogs.
+	source			: 'HTML Iturburua',
+	newPage			: 'Orrialde Berria',
+	save			: 'Gorde',
+	preview			: 'Aurrebista',
+	cut				: 'Ebaki',
+	copy			: 'Kopiatu',
+	paste			: 'Itsatsi',
+	print			: 'Inprimatu',
+	underline		: 'Azpimarratu',
+	bold			: 'Lodia',
+	italic			: 'Etzana',
+	selectAll		: 'Hautatu dena',
+	removeFormat	: 'Kendu Formatua',
+	strike			: 'Marratua',
+	subscript		: 'Azpi-indize',
+	superscript		: 'Goi-indize',
+	horizontalrule	: 'Txertatu Marra Horizontala',
+	pagebreak		: 'Txertatu Orrialde-jauzia',
+	pagebreakAlt		: 'Page Break', // MISSING
+	unlink			: 'Kendu Esteka',
+	undo			: 'Desegin',
+	redo			: 'Berregin',
+
+	// Common messages and labels.
+	common :
+	{
+		browseServer	: 'Zerbitzaria arakatu',
+		url				: 'URL',
+		protocol		: 'Protokoloa',
+		upload			: 'Gora kargatu',
+		uploadSubmit	: 'Zerbitzarira bidalia',
+		image			: 'Irudia',
+		flash			: 'Flasha',
+		form			: 'Formularioa',
+		checkbox		: 'Kontrol-laukia',
+		radio			: 'Aukera-botoia',
+		textField		: 'Testu Eremua',
+		textarea		: 'Testu-area',
+		hiddenField		: 'Ezkutuko Eremua',
+		button			: 'Botoia',
+		select			: 'Hautespen Eremua',
+		imageButton		: 'Irudi Botoia',
+		notSet			: '<Ezarri gabe>',
+		id				: 'Id',
+		name			: 'Izena',
+		langDir			: 'Hizkuntzaren Norabidea',
+		langDirLtr		: 'Ezkerretik Eskumara(LTR)',
+		langDirRtl		: 'Eskumatik Ezkerrera (RTL)',
+		langCode		: 'Hizkuntza Kodea',
+		longDescr		: 'URL Deskribapen Luzea',
+		cssClass		: 'Estilo-orriko Klaseak',
+		advisoryTitle	: 'Izenburua',
+		cssStyle		: 'Estiloa',
+		ok				: 'Ados',
+		cancel			: 'Utzi',
+		close			: 'Close', // MISSING
+		preview			: 'Preview', // MISSING
+		generalTab		: 'Orokorra',
+		advancedTab		: 'Aurreratua',
+		validateNumberFailed : 'Balio hau ez da zenbaki bat.',
+		confirmNewPage	: 'Eduki honetan gorde gabe dauden aldaketak galduko dira. Ziur zaude orri berri bat kargatu nahi duzula?',
+		confirmCancel	: 'Aukera batzuk aldatu egin dira. Ziur zaude elkarrizketa-koadroa itxi nahi duzula?',
+		options			: 'Options', // MISSING
+		target			: 'Target', // MISSING
+		targetNew		: 'New Window (_blank)', // MISSING
+		targetTop		: 'Topmost Window (_top)', // MISSING
+		targetSelf		: 'Same Window (_self)', // MISSING
+		targetParent	: 'Parent Window (_parent)', // MISSING
+		langDirLTR		: 'Left to Right (LTR)', // MISSING
+		langDirRTL		: 'Right to Left (RTL)', // MISSING
+		styles			: 'Style', // MISSING
+		cssClasses		: 'Stylesheet Classes', // MISSING
+		width			: 'Zabalera',
+		height			: 'Altuera',
+		align			: 'Lerrokatu',
+		alignLeft		: 'Ezkerrera',
+		alignRight		: 'Eskuman',
+		alignCenter		: 'Erdian',
+		alignTop		: 'Goian',
+		alignMiddle		: 'Erdian',
+		alignBottom		: 'Behean',
+		invalidValue	: 'Invalid value.', // MISSING
+		invalidHeight	: 'Altuera zenbaki bat izan behar da.',
+		invalidWidth	: 'Zabalera zenbaki bat izan behar da.',
+		invalidCssLength	: 'Value specified for the "%1" field must be a positive number with or without a valid CSS measurement unit (px, %, in, cm, mm, em, ex, pt, or pc).', // MISSING
+		invalidHtmlLength	: 'Value specified for the "%1" field must be a positive number with or without a valid HTML measurement unit (px or %).', // MISSING
+		invalidInlineStyle	: 'Value specified for the inline style must consist of one or more tuples with the format of "name : value", separated by semi-colons.', // MISSING
+		cssLengthTooltip	: 'Enter a number for a value in pixels or a number with a valid CSS unit (px, %, in, cm, mm, em, ex, pt, or pc).', // MISSING
+
+		// Put the voice-only part of the label in the span.
+		unavailable		: '%1<span class="cke_accessibility">, erabilezina</span>'
+	},
+
+	contextmenu :
+	{
+		options : 'Context Menu Options' // MISSING
+	},
+
+	// Special char dialog.
+	specialChar		:
+	{
+		toolbar		: 'Txertatu Karaktere Berezia',
+		title		: 'Karaktere Berezia Aukeratu',
+		options : 'Special Character Options' // MISSING
+	},
+
+	// Link dialog.
+	link :
+	{
+		toolbar		: 'Txertatu/Editatu Esteka',
+		other 		: '<other>', // MISSING
+		menu		: 'Aldatu Esteka',
+		title		: 'Esteka',
+		info		: 'Estekaren Informazioa',
+		target		: 'Target (Helburua)',
+		upload		: 'Gora kargatu',
+		advanced	: 'Aurreratua',
+		type		: 'Esteka Mota',
+		toUrl		: 'URL', // MISSING
+		toAnchor	: 'Aingura orrialde honetan',
+		toEmail		: 'ePosta',
+		targetFrame		: '<marko>',
+		targetPopup		: '<popup leihoa>',
+		targetFrameName	: 'Marko Helburuaren Izena',
+		targetPopupName	: 'Popup Leihoaren Izena',
+		popupFeatures	: 'Popup Leihoaren Ezaugarriak',
+		popupResizable	: 'Tamaina Aldakorra',
+		popupStatusBar	: 'Egoera Barra',
+		popupLocationBar: 'Kokaleku Barra',
+		popupToolbar	: 'Tresna Barra',
+		popupMenuBar	: 'Menu Barra',
+		popupFullScreen	: 'Pantaila Osoa (IE)',
+		popupScrollBars	: 'Korritze Barrak',
+		popupDependent	: 'Menpekoa (Netscape)',
+		popupLeft		: 'Ezkerreko  Posizioa',
+		popupTop		: 'Goiko Posizioa',
+		id				: 'Id',
+		langDir			: 'Hizkuntzaren Norabidea',
+		langDirLTR		: 'Ezkerretik Eskumara(LTR)',
+		langDirRTL		: 'Eskumatik Ezkerrera (RTL)',
+		acccessKey		: 'Sarbide-gakoa',
+		name			: 'Izena',
+		langCode			: 'Hizkuntzaren Norabidea',
+		tabIndex			: 'Tabulazio Indizea',
+		advisoryTitle		: 'Izenburua',
+		advisoryContentType	: 'Eduki Mota (Content Type)',
+		cssClasses		: 'Estilo-orriko Klaseak',
+		charset			: 'Estekatutako Karaktere Multzoa',
+		styles			: 'Estiloa',
+		rel			: 'Relationship', // MISSING
+		selectAnchor		: 'Aingura bat hautatu',
+		anchorName		: 'Aingura izenagatik',
+		anchorId			: 'Elementuaren ID-gatik',
+		emailAddress		: 'ePosta Helbidea',
+		emailSubject		: 'Mezuaren Gaia',
+		emailBody		: 'Mezuaren Gorputza',
+		noAnchors		: '(Ez daude aingurak eskuragarri dokumentuan)',
+		noUrl			: 'Mesedez URL esteka idatzi',
+		noEmail			: 'Mesedez ePosta helbidea idatzi'
+	},
+
+	// Anchor dialog
+	anchor :
+	{
+		toolbar		: 'Aingura',
+		menu		: 'Ainguraren Ezaugarriak',
+		title		: 'Ainguraren Ezaugarriak',
+		name		: 'Ainguraren Izena',
+		errorName	: 'Idatzi ainguraren izena',
+		remove		: 'Remove Anchor' // MISSING
+	},
+
+	// List style dialog
+	list:
+	{
+		numberedTitle		: 'Numbered List Properties', // MISSING
+		bulletedTitle		: 'Bulleted List Properties', // MISSING
+		type				: 'Type', // MISSING
+		start				: 'Start', // MISSING
+		validateStartNumber				:'List start number must be a whole number.', // MISSING
+		circle				: 'Circle', // MISSING
+		disc				: 'Disc', // MISSING
+		square				: 'Square', // MISSING
+		none				: 'None', // MISSING
+		notset				: '<not set>', // MISSING
+		armenian			: 'Armenian numbering', // MISSING
+		georgian			: 'Georgian numbering (an, ban, gan, etc.)', // MISSING
+		lowerRoman			: 'Lower Roman (i, ii, iii, iv, v, etc.)', // MISSING
+		upperRoman			: 'Upper Roman (I, II, III, IV, V, etc.)', // MISSING
+		lowerAlpha			: 'Lower Alpha (a, b, c, d, e, etc.)', // MISSING
+		upperAlpha			: 'Upper Alpha (A, B, C, D, E, etc.)', // MISSING
+		lowerGreek			: 'Lower Greek (alpha, beta, gamma, etc.)', // MISSING
+		decimal				: 'Decimal (1, 2, 3, etc.)', // MISSING
+		decimalLeadingZero	: 'Decimal leading zero (01, 02, 03, etc.)' // MISSING
+	},
+
+	// Find And Replace Dialog
+	findAndReplace :
+	{
+		title				: 'Bilatu eta Ordeztu',
+		find				: 'Bilatu',
+		replace				: 'Ordezkatu',
+		findWhat			: 'Zer bilatu:',
+		replaceWith			: 'Zerekin ordeztu:',
+		notFoundMsg			: 'Idatzitako testua ez da topatu.',
+		findOptions			: 'Find Options', // MISSING
+		matchCase			: 'Maiuskula/minuskula',
+		matchWord			: 'Esaldi osoa bilatu',
+		matchCyclic			: 'Bilaketa ziklikoa',
+		replaceAll			: 'Ordeztu Guztiak',
+		replaceSuccessMsg	: 'Zenbat aldiz ordeztua: %1'
+	},
+
+	// Table Dialog
+	table :
+	{
+		toolbar		: 'Taula',
+		title		: 'Taularen Ezaugarriak',
+		menu		: 'Taularen Ezaugarriak',
+		deleteTable	: 'Ezabatu Taula',
+		rows		: 'Lerroak',
+		columns		: 'Zutabeak',
+		border		: 'Ertzaren Zabalera',
+		widthPx		: 'pixel',
+		widthPc		: 'ehuneko',
+		widthUnit	: 'width unit', // MISSING
+		cellSpace	: 'Gelaxka arteko tartea',
+		cellPad		: 'Gelaxken betegarria',
+		caption		: 'Epigrafea',
+		summary		: 'Laburpena',
+		headers		: 'Goiburuak',
+		headersNone		: 'Bat ere ez',
+		headersColumn	: 'Lehen zutabea',
+		headersRow		: 'Lehen lerroa',
+		headersBoth		: 'Biak',
+		invalidRows		: 'Lerro kopurua 0 baino handiagoa den zenbakia izan behar da.',
+		invalidCols		: 'Zutabe kopurua 0 baino handiagoa den zenbakia izan behar da.',
+		invalidBorder	: 'Ertzaren tamaina zenbaki bat izan behar da.',
+		invalidWidth	: 'Taularen zabalera zenbaki bat izan behar da.',
+		invalidHeight	: 'Taularen altuera zenbaki bat izan behar da.',
+		invalidCellSpacing	: 'Gelaxka arteko tartea zenbaki bat izan behar da.',
+		invalidCellPadding	: 'Gelaxken betegarria zenbaki bat izan behar da.',
+
+		cell :
+		{
+			menu			: 'Gelaxka',
+			insertBefore	: 'Txertatu Gelaxka Aurretik',
+			insertAfter		: 'Txertatu Gelaxka Ostean',
+			deleteCell		: 'Kendu Gelaxkak',
+			merge			: 'Batu Gelaxkak',
+			mergeRight		: 'Elkartu Eskumara',
+			mergeDown		: 'Elkartu Behera',
+			splitHorizontal	: 'Banatu Gelaxkak Horizontalki',
+			splitVertical	: 'Banatu Gelaxkak Bertikalki',
+			title			: 'Gelaxken Ezaugarriak',
+			cellType		: 'Gelaxka Mota',
+			rowSpan			: 'Hedatutako Lerroak',
+			colSpan			: 'Hedatutako Zutabeak',
+			wordWrap		: 'Itzulbira',
+			hAlign			: 'Lerrokatze Horizontala',
+			vAlign			: 'Lerrokatze Bertikala',
+			alignBaseline	: 'Oinarri-lerroan',
+			bgColor			: 'Fondoaren Kolorea',
+			borderColor		: 'Ertzaren Kolorea',
+			data			: 'Data',
+			header			: 'Goiburua',
+			yes				: 'Bai',
+			no				: 'Ez',
+			invalidWidth	: 'Gelaxkaren zabalera zenbaki bat izan behar da.',
+			invalidHeight	: 'Gelaxkaren altuera zenbaki bat izan behar da.',
+			invalidRowSpan	: 'Lerroen hedapena zenbaki osoa izan behar da.',
+			invalidColSpan	: 'Zutabeen hedapena zenbaki osoa izan behar da.',
+			chooseColor		: 'Choose' // MISSING
+		},
+
+		row :
+		{
+			menu			: 'Lerroa',
+			insertBefore	: 'Txertatu Lerroa Aurretik',
+			insertAfter		: 'Txertatu Lerroa Ostean',
+			deleteRow		: 'Ezabatu Lerroak'
+		},
+
+		column :
+		{
+			menu			: 'Zutabea',
+			insertBefore	: 'Txertatu Zutabea Aurretik',
+			insertAfter		: 'Txertatu Zutabea Ostean',
+			deleteColumn	: 'Ezabatu Zutabeak'
+		}
+	},
+
+	// Button Dialog.
+	button :
+	{
+		title		: 'Botoiaren Ezaugarriak',
+		text		: 'Testua (Balorea)',
+		type		: 'Mota',
+		typeBtn		: 'Botoia',
+		typeSbm		: 'Bidali',
+		typeRst		: 'Garbitu'
+	},
+
+	// Checkbox and Radio Button Dialogs.
+	checkboxAndRadio :
+	{
+		checkboxTitle : 'Kontrol-laukiko Ezaugarriak',
+		radioTitle	: 'Aukera-botoiaren Ezaugarriak',
+		value		: 'Balorea',
+		selected	: 'Hautatuta'
+	},
+
+	// Form Dialog.
+	form :
+	{
+		title		: 'Formularioaren Ezaugarriak',
+		menu		: 'Formularioaren Ezaugarriak',
+		action		: 'Ekintza',
+		method		: 'Metodoa',
+		encoding	: 'Kodeketa'
+	},
+
+	// Select Field Dialog.
+	select :
+	{
+		title		: 'Hautespen Eremuaren Ezaugarriak',
+		selectInfo	: 'Informazioa',
+		opAvail		: 'Aukera Eskuragarriak',
+		value		: 'Balorea',
+		size		: 'Tamaina',
+		lines		: 'lerro kopurura',
+		chkMulti	: 'Hautaketa anitzak baimendu',
+		opText		: 'Testua',
+		opValue		: 'Balorea',
+		btnAdd		: 'Gehitu',
+		btnModify	: 'Aldatu',
+		btnUp		: 'Gora',
+		btnDown		: 'Behera',
+		btnSetValue : 'Aukeratutako balorea ezarri',
+		btnDelete	: 'Ezabatu'
+	},
+
+	// Textarea Dialog.
+	textarea :
+	{
+		title		: 'Testu-arearen Ezaugarriak',
+		cols		: 'Zutabeak',
+		rows		: 'Lerroak'
+	},
+
+	// Text Field Dialog.
+	textfield :
+	{
+		title		: 'Testu Eremuaren Ezaugarriak',
+		name		: 'Izena',
+		value		: 'Balorea',
+		charWidth	: 'Zabalera',
+		maxChars	: 'Zenbat karaktere gehienez',
+		type		: 'Mota',
+		typeText	: 'Testua',
+		typePass	: 'Pasahitza'
+	},
+
+	// Hidden Field Dialog.
+	hidden :
+	{
+		title	: 'Ezkutuko Eremuaren Ezaugarriak',
+		name	: 'Izena',
+		value	: 'Balorea'
+	},
+
+	// Image Dialog.
+	image :
+	{
+		title		: 'Irudi Ezaugarriak',
+		titleButton	: 'Irudi Botoiaren Ezaugarriak',
+		menu		: 'Irudi Ezaugarriak',
+		infoTab		: 'Irudi informazioa',
+		btnUpload	: 'Zerbitzarira bidalia',
+		upload		: 'Gora Kargatu',
+		alt			: 'Ordezko Testua',
+		lockRatio	: 'Erlazioa Blokeatu',
+		resetSize	: 'Tamaina Berrezarri',
+		border		: 'Ertza',
+		hSpace		: 'HSpace',
+		vSpace		: 'VSpace',
+		alertUrl	: 'Mesedez Irudiaren URLa idatzi',
+		linkTab		: 'Esteka',
+		button2Img	: 'Aukeratutako irudi botoia, irudi normal batean eraldatu nahi duzu?',
+		img2Button	: 'Aukeratutako irudia, irudi botoi batean eraldatu nahi duzu?',
+		urlMissing	: 'Image source URL is missing.', // MISSING
+		validateBorder	: 'Border must be a whole number.', // MISSING
+		validateHSpace	: 'HSpace must be a whole number.', // MISSING
+		validateVSpace	: 'VSpace must be a whole number.' // MISSING
+	},
+
+	// Flash Dialog
+	flash :
+	{
+		properties		: 'Flasharen Ezaugarriak',
+		propertiesTab	: 'Ezaugarriak',
+		title			: 'Flasharen Ezaugarriak',
+		chkPlay			: 'Automatikoki Erreproduzitu',
+		chkLoop			: 'Begizta',
+		chkMenu			: 'Flasharen Menua Gaitu',
+		chkFull			: 'Onartu Pantaila osoa',
+ 		scale			: 'Eskalatu',
+		scaleAll		: 'Dena erakutsi',
+		scaleNoBorder	: 'Ertzik gabe',
+		scaleFit		: 'Doitu',
+		access			: 'Scriptak baimendu',
+		accessAlways	: 'Beti',
+		accessSameDomain: 'Domeinu berdinekoak',
+		accessNever		: 'Inoiz ere ez',
+		alignAbsBottom	: 'Abs Behean',
+		alignAbsMiddle	: 'Abs Erdian',
+		alignBaseline	: 'Oinan',
+		alignTextTop	: 'Testua Goian',
+		quality			: 'Kalitatea',
+		qualityBest		: 'Hoberena',
+		qualityHigh		: 'Altua',
+		qualityAutoHigh	: 'Auto Altua',
+		qualityMedium	: 'Ertaina',
+		qualityAutoLow	: 'Auto Baxua',
+		qualityLow		: 'Baxua',
+		windowModeWindow: 'Leihoa',
+		windowModeOpaque: 'Opakoa',
+		windowModeTransparent : 'Gardena',
+		windowMode		: 'Leihoaren modua',
+		flashvars		: 'Flash Aldagaiak',
+		bgcolor			: 'Atzeko kolorea',
+		hSpace			: 'HSpace',
+		vSpace			: 'VSpace',
+		validateSrc		: 'Mesedez URL esteka idatzi',
+		validateHSpace	: 'HSpace zenbaki bat izan behar da.',
+		validateVSpace	: 'VSpace zenbaki bat izan behar da.'
+	},
+
+	// Speller Pages Dialog
+	spellCheck :
+	{
+		toolbar			: 'Ortografia',
+		title			: 'Ortografia zuzenketa',
+		notAvailable	: 'Barkatu baina momentu honetan zerbitzua ez dago erabilgarri.',
+		errorLoading	: 'Errorea gertatu da aplikazioa zerbitzaritik kargatzean: %s.',
+		notInDic		: 'Ez dago hiztegian',
+		changeTo		: 'Honekin ordezkatu',
+		btnIgnore		: 'Ezikusi',
+		btnIgnoreAll	: 'Denak Ezikusi',
+		btnReplace		: 'Ordezkatu',
+		btnReplaceAll	: 'Denak Ordezkatu',
+		btnUndo			: 'Desegin',
+		noSuggestions	: '- Iradokizunik ez -',
+		progress		: 'Zuzenketa ortografikoa martxan...',
+		noMispell		: 'Zuzenketa ortografikoa bukatuta: Akatsik ez',
+		noChanges		: 'Zuzenketa ortografikoa bukatuta: Ez da ezer aldatu',
+		oneChange		: 'Zuzenketa ortografikoa bukatuta: Hitz bat aldatu da',
+		manyChanges		: 'Zuzenketa ortografikoa bukatuta: %1 hitz aldatu dira',
+		ieSpellDownload	: 'Zuzentzaile ortografikoa ez dago instalatuta. Deskargatu nahi duzu?'
+	},
+
+	smiley :
+	{
+		toolbar	: 'Aurpegierak',
+		title	: 'Aurpegiera Sartu',
+		options : 'Smiley Options' // MISSING
+	},
+
+	elementsPath :
+	{
+		eleLabel : 'Elements path', // MISSING
+		eleTitle : '%1 elementua'
+	},
+
+	numberedlist	: 'Zenbakidun Zerrenda',
+	bulletedlist	: 'Buletdun Zerrenda',
+	indent			: 'Handitu Koska',
+	outdent			: 'Txikitu Koska',
+
+	justify :
+	{
+		left	: 'Lerrokatu Ezkerrean',
+		center	: 'Lerrokatu Erdian',
+		right	: 'Lerrokatu Eskuman',
+		block	: 'Justifikatu'
+	},
+
+	blockquote : 'Aipamen blokea',
+
+	clipboard :
+	{
+		title		: 'Itsatsi',
+		cutError	: 'Zure web nabigatzailearen segurtasun ezarpenak testuak automatikoki moztea ez dute baimentzen. Mesedez teklatua erabili ezazu (Ctrl/Cmd+X).',
+		copyError	: 'Zure web nabigatzailearen segurtasun ezarpenak testuak automatikoki kopiatzea ez dute baimentzen. Mesedez teklatua erabili ezazu (Ctrl/Cmd+C).',
+		pasteMsg	: 'Mesedez teklatua erabilita (<STRONG>Ctrl/Cmd+V</STRONG>) ondorego eremuan testua itsatsi eta <STRONG>OK</STRONG> sakatu.',
+		securityMsg	: 'Nabigatzailearen segurtasun ezarpenak direla eta, editoreak ezin du arbela zuzenean erabili. Leiho honetan berriro itsatsi behar duzu.',
+		pasteArea	: 'Paste Area' // MISSING
+	},
+
+	pastefromword :
+	{
+		confirmCleanup	: 'Itsatsi nahi duzun testua Wordetik hartua dela dirudi. Itsatsi baino lehen garbitu nahi duzu?',
+		toolbar			: 'Itsatsi Word-etik',
+		title			: 'Itsatsi Word-etik',
+		error			: 'It was not possible to clean up the pasted data due to an internal error' // MISSING
+	},
+
+	pasteText :
+	{
+		button	: 'Testu Arrunta bezala Itsatsi',
+		title	: 'Testu Arrunta bezala Itsatsi'
+	},
+
+	templates :
+	{
+		button			: 'Txantiloiak',
+		title			: 'Eduki Txantiloiak',
+		options : 'Template Options', // MISSING
+		insertOption	: 'Ordeztu oraingo edukiak',
+		selectPromptMsg	: 'Mesedez txantiloia aukeratu editorean kargatzeko<br>(orain dauden edukiak galduko dira):',
+		emptyListMsg	: '(Ez dago definitutako txantiloirik)'
+	},
+
+	showBlocks : 'Blokeak erakutsi',
+
+	stylesCombo :
+	{
+		label		: 'Estiloa',
+		panelTitle	: 'Formatting Styles', // MISSING
+		panelTitle1	: 'Bloke Estiloak',
+		panelTitle2	: 'Inline Estiloak',
+		panelTitle3	: 'Objektu Estiloak'
+	},
+
+	format :
+	{
+		label		: 'Formatua',
+		panelTitle	: 'Formatua',
+
+		tag_p		: 'Arrunta',
+		tag_pre		: 'Formateatua',
+		tag_address	: 'Helbidea',
+		tag_h1		: 'Izenburua 1',
+		tag_h2		: 'Izenburua 2',
+		tag_h3		: 'Izenburua 3',
+		tag_h4		: 'Izenburua 4',
+		tag_h5		: 'Izenburua 5',
+		tag_h6		: 'Izenburua 6',
+		tag_div		: 'Paragrafoa (DIV)'
+	},
+
+	div :
+	{
+		title				: 'Create Div Container', // MISSING
+		toolbar				: 'Create Div Container', // MISSING
+		cssClassInputLabel	: 'Stylesheet Classes', // MISSING
+		styleSelectLabel	: 'Style', // MISSING
+		IdInputLabel		: 'Id', // MISSING
+		languageCodeInputLabel	: ' Language Code', // MISSING
+		inlineStyleInputLabel	: 'Inline Style', // MISSING
+		advisoryTitleInputLabel	: 'Advisory Title', // MISSING
+		langDirLabel		: 'Language Direction', // MISSING
+		langDirLTRLabel		: 'Left to Right (LTR)', // MISSING
+		langDirRTLLabel		: 'Right to Left (RTL)', // MISSING
+		edit				: 'Edit Div', // MISSING
+		remove				: 'Remove Div' // MISSING
+  	},
+
+	iframe :
+	{
+		title		: 'IFrame Properties', // MISSING
+		toolbar		: 'IFrame', // MISSING
+		noUrl		: 'Please type the iframe URL', // MISSING
+		scrolling	: 'Enable scrollbars', // MISSING
+		border		: 'Show frame border' // MISSING
+	},
+
+	font :
+	{
+		label		: 'Letra-tipoa',
+		voiceLabel	: 'Letra-tipoa',
+		panelTitle	: 'Letra-tipoa'
+	},
+
+	fontSize :
+	{
+		label		: 'Tamaina',
+		voiceLabel	: 'Tamaina',
+		panelTitle	: 'Tamaina'
+	},
+
+	colorButton :
+	{
+		textColorTitle	: 'Testu Kolorea',
+		bgColorTitle	: 'Atzeko kolorea',
+		panelTitle		: 'Colors', // MISSING
+		auto			: 'Automatikoa',
+		more			: 'Kolore gehiago...'
+	},
+
+	colors :
+	{
+		'000' : 'Black', // MISSING
+		'800000' : 'Maroon', // MISSING
+		'8B4513' : 'Saddle Brown', // MISSING
+		'2F4F4F' : 'Dark Slate Gray', // MISSING
+		'008080' : 'Teal', // MISSING
+		'000080' : 'Navy', // MISSING
+		'4B0082' : 'Indigo', // MISSING
+		'696969' : 'Dark Gray', // MISSING
+		'B22222' : 'Fire Brick', // MISSING
+		'A52A2A' : 'Brown', // MISSING
+		'DAA520' : 'Golden Rod', // MISSING
+		'006400' : 'Dark Green', // MISSING
+		'40E0D0' : 'Turquoise', // MISSING
+		'0000CD' : 'Medium Blue', // MISSING
+		'800080' : 'Purple', // MISSING
+		'808080' : 'Gray', // MISSING
+		'F00' : 'Red', // MISSING
+		'FF8C00' : 'Dark Orange', // MISSING
+		'FFD700' : 'Gold', // MISSING
+		'008000' : 'Green', // MISSING
+		'0FF' : 'Cyan', // MISSING
+		'00F' : 'Blue', // MISSING
+		'EE82EE' : 'Violet', // MISSING
+		'A9A9A9' : 'Dim Gray', // MISSING
+		'FFA07A' : 'Light Salmon', // MISSING
+		'FFA500' : 'Orange', // MISSING
+		'FFFF00' : 'Yellow', // MISSING
+		'00FF00' : 'Lime', // MISSING
+		'AFEEEE' : 'Pale Turquoise', // MISSING
+		'ADD8E6' : 'Light Blue', // MISSING
+		'DDA0DD' : 'Plum', // MISSING
+		'D3D3D3' : 'Light Grey', // MISSING
+		'FFF0F5' : 'Lavender Blush', // MISSING
+		'FAEBD7' : 'Antique White', // MISSING
+		'FFFFE0' : 'Light Yellow', // MISSING
+		'F0FFF0' : 'Honeydew', // MISSING
+		'F0FFFF' : 'Azure', // MISSING
+		'F0F8FF' : 'Alice Blue', // MISSING
+		'E6E6FA' : 'Lavender', // MISSING
+		'FFF' : 'White' // MISSING
+	},
+
+	scayt :
+	{
+		title			: 'Ortografia Zuzenketa Idatzi Ahala (SCAYT)',
+		opera_title		: 'Not supported by Opera', // MISSING
+		enable			: 'Gaitu SCAYT',
+		disable			: 'Desgaitu SCAYT',
+		about			: 'SCAYTi buruz',
+		toggle			: 'SCAYT aldatu',
+		options			: 'Aukerak',
+		langs			: 'Hizkuntzak',
+		moreSuggestions	: 'Iradokizun gehiago',
+		ignore			: 'Baztertu',
+		ignoreAll		: 'Denak baztertu',
+		addWord			: 'Hitza Gehitu',
+		emptyDic		: 'Hiztegiaren izena ezin da hutsik egon.',
+
+		optionsTab		: 'Aukerak',
+		allCaps			: 'Ignore All-Caps Words', // MISSING
+		ignoreDomainNames : 'Ignore Domain Names', // MISSING
+		mixedCase		: 'Ignore Words with Mixed Case', // MISSING
+		mixedWithDigits	: 'Ignore Words with Numbers', // MISSING
+
+		languagesTab	: 'Hizkuntzak',
+
+		dictionariesTab	: 'Hiztegiak',
+		dic_field_name	: 'Dictionary name', // MISSING
+		dic_create		: 'Create', // MISSING
+		dic_restore		: 'Restore', // MISSING
+		dic_delete		: 'Delete', // MISSING
+		dic_rename		: 'Rename', // MISSING
+		dic_info		: 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.', // MISSING
+
+		aboutTab		: 'Honi buruz'
+	},
+
+	about :
+	{
+		title		: 'CKEditor(r)i buruz',
+		dlgTitle	: 'CKEditor(r)i buruz',
+		help	: 'Check $1 for help.', // MISSING
+		userGuide : 'CKEditor User\'s Guide', // MISSING
+		moreInfo	: 'Lizentziari buruzko informazioa gure webgunean:',
+		copy		: 'Copyright &copy; $1. Eskubide guztiak erreserbaturik.'
+	},
+
+	maximize : 'Maximizatu',
+	minimize : 'Minimize', // MISSING
+
+	fakeobjects :
+	{
+		anchor		: 'Aingura',
+		flash		: 'Flash Animazioa',
+		iframe		: 'IFrame', // MISSING
+		hiddenfield	: 'Hidden Field', // MISSING
+		unknown		: 'Objektu ezezaguna'
+	},
+
+	resize : 'Arrastatu tamaina aldatzeko',
+
+	colordialog :
+	{
+		title		: 'Select color', // MISSING
+		options	:	'Color Options', // MISSING
+		highlight	: 'Highlight', // MISSING
+		selected	: 'Selected Color', // MISSING
+		clear		: 'Clear' // MISSING
+	},
+
+	toolbarCollapse	: 'Collapse Toolbar', // MISSING
+	toolbarExpand	: 'Expand Toolbar', // MISSING
+
+	toolbarGroups :
+	{
+		document : 'Document', // MISSING
+		clipboard : 'Clipboard/Undo', // MISSING
+		editing : 'Editing', // MISSING
+		forms : 'Forms', // MISSING
+		basicstyles : 'Basic Styles', // MISSING
+		paragraph : 'Paragraph', // MISSING
+		links : 'Links', // MISSING
+		insert : 'Insert', // MISSING
+		styles : 'Styles', // MISSING
+		colors : 'Colors', // MISSING
+		tools : 'Tools' // MISSING
+	},
+
+	bidi :
+	{
+		ltr : 'Text direction from left to right', // MISSING
+		rtl : 'Text direction from right to left' // MISSING
+	},
+
+	docprops :
+	{
+		label : 'Dokumentuaren Ezarpenak',
+		title : 'Dokumentuaren Ezarpenak',
+		design : 'Design', // MISSING
+		meta : 'Meta Informazioa',
+		chooseColor : 'Choose', // MISSING
+		other : '<other>',
+		docTitle :	'Orriaren Izenburua',
+		charset : 	'Karaktere Multzoaren Kodeketa',
+		charsetOther : 'Beste Karaktere Multzoko Kodeketa',
+		charsetASCII : 'ASCII', // MISSING
+		charsetCE : 'Erdialdeko Europakoa',
+		charsetCT : 'Txinatar Tradizionala (Big5)',
+		charsetCR : 'Zirilikoa',
+		charsetGR : 'Grekoa',
+		charsetJP : 'Japoniarra',
+		charsetKR : 'Korearra',
+		charsetTR : 'Turkiarra',
+		charsetUN : 'Unicode (UTF-8)', // MISSING
+		charsetWE : 'Mendebaldeko Europakoa',
+		docType : 'Document Type Goiburua',
+		docTypeOther : 'Beste Document Type Goiburua',
+		xhtmlDec : 'XHTML Ezarpenak',
+		bgColor : 'Atzeko Kolorea',
+		bgImage : 'Atzeko Irudiaren URL-a',
+		bgFixed : 'Korritze gabeko Atzealdea',
+		txtColor : 'Testu Kolorea',
+		margin : 'Orrialdearen marjinak',
+		marginTop : 'Goian',
+		marginLeft : 'Ezkerrean',
+		marginRight : 'Eskuman',
+		marginBottom : 'Behean',
+		metaKeywords : 'Dokumentuaren Gako-hitzak (komarekin bananduta)',
+		metaDescription : 'Dokumentuaren Deskribapena',
+		metaAuthor : 'Egilea',
+		metaCopyright : 'Copyright', // MISSING
+		previewHtml : '<p>This is some <strong>sample text</strong>. You are using <a href="javascript:void(0)">CKEditor</a>.</p>' // MISSING
+	}
+};
